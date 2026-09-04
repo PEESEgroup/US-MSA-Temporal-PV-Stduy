@@ -45,8 +45,8 @@
       "sha256": "6a78d76a4f49d3be99001d3cb000b820d9cc07e29a34688dad464eb8462554f6"
     },
     "agent/state_machine.json": {
-      "bytes": 42688,
-      "sha256": "0d89707f0152345ce12a63fbf4b0216f2a9c30f9f239e0fcfac15a67e38bba37"
+      "bytes": 43638,
+      "sha256": "2e2ce8c5cd218140e00a575551b89b21d8d69b92808114816c632fdb0552a447"
     },
     "agent/workspace_AGENTS.md": {
       "bytes": 9860,
@@ -617,7 +617,7 @@
       "sha256": "73ced0ca5d50f90401329656245f73e8bc79bf52a65078188597c89368271e06"
     }
   },
-  "generated_utc": "2026-09-04T12:11:32Z",
+  "generated_utc": "2026-09-04T12:17:06Z",
   "schema_version": "temporal-pv-github-release/v1",
   "scope": "main figures, plotted data, checks, manifests, plotting code, paper-analysis code and agent workflow records"
 }

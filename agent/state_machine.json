@@ -3,8 +3,8 @@
   "manuscript": "temporal_building_rooftop_pv",
   "target_journal": "Nature Cities",
   "target_content_type": "Article",
-  "updated_utc": "2026-09-04T11:32:53Z",
-  "current_state": "S3_METHODS_DRAFT",
+  "updated_utc": "2026-09-04T12:16:05Z",
+  "current_state": "S4_INTRO_DISCUSSION",
   "workflow_status_values": [
     "TODO",
     "IN_PROGRESS",
@@ -66,7 +66,7 @@
       "next": ["S3_METHODS_DRAFT"]
     },
     "S3_METHODS_DRAFT": {
-      "status": "IN_PROGRESS",
+      "status": "DONE",
       "purpose": "Write reproducible Methods after the main text and place Figure 5 in the workflow subsection.",
       "exit_criteria": [
         "Target population, inventory paths, linkage, censoring, risk sets and estimands are reproducible",
@@ -433,7 +433,7 @@
     {
       "id": "T303",
       "state": "S3_METHODS_DRAFT",
-      "workflow_status": "IN_PROGRESS",
+      "workflow_status": "DONE",
       "task": "Prepare Data and Code availability statements and a GitHub-ready release of the main figures, plotting code and agent-authored analysis code; remove reproducibility/software/AI disclosure and the optional contribution, interests and acknowledgement sections per user instruction.",
       "outputs": [
         "sections/04_methods.tex",
@@ -447,8 +447,8 @@
         "generated/static_tex_checks.json",
         "main.pdf"
       ],
-      "pending": "Provide the target GitHub repository URL, public/private visibility and commit identity or authenticated push route; then replace the single repository-URL draft marker, commit and push.",
-      "qa_partial": "The curated 7.8-MB local Git repository contains 152 tracked files: approved Figures 1-5, plotted CSV/check/manifest/note files for Figures 1-4, plotting code, paper-analysis code, shared style and agent workflow records. The release excludes source imagery, upstream runs, the complete 220-MB high-level table collection, credentials and the unverified Arial font redistribution. Its SHA-256 release manifest verifies all 151 files covered by the inventory; Python syntax and secret-pattern scans pass. The manuscript compiles and static TeX QA is PASS_COMPILED; visual inspection of the availability page found no clipping. One explicit draft marker remains only for the final GitHub URL."
+      "completed_utc": "2026-09-04T12:16:05Z",
+      "qa": "The curated 7.8-MB GitHub release contains the approved Figures 1-5, plotted CSV/check/manifest/note files for Figures 1-4, plotting code, paper-analysis code, shared style and agent workflow records. It excludes source imagery, upstream runs, the complete 220-MB high-level table collection, credentials and the unverified Arial font redistribution. The SHA-256 release inventory, Python syntax and secret-pattern scans pass. The manuscript compiles and static TeX QA is PASS_COMPILED; visual inspection of the availability page found no clipping. Data and Code availability name the public repository, and the release was published to PEESEgroup/US-MSA-Temporal-PV-Stduy at revision b0bf8af."
     },
     {
       "id": "T401",
@@ -484,9 +484,10 @@
     {
       "id": "T503",
       "state": "S5_ABSTRACT_BACKMATTER",
-      "workflow_status": "BLOCKED",
+      "workflow_status": "DONE",
       "task": "Finalize Data and Code availability statements.",
-      "blocked_by": "Target GitHub repository URL, visibility, commit identity and authenticated push route"
+      "completed_utc": "2026-09-04T12:16:05Z",
+      "qa": "Data and Code availability are limited to the requested statements, identify the public GitHub repository, and match the curated release permissions and contents."
     },
     {
       "id": "T601",
@@ -672,6 +673,18 @@
       "from": "S3_METHODS_DRAFT",
       "to": "S3_METHODS_DRAFT",
       "reason": "T303 scope was changed by user instruction. Reproducibility/software/AI disclosure and acknowledgement, contribution and interests sections were removed; Data and Code availability text and a verified GitHub-ready release repository were prepared locally. T303 remains IN_PROGRESS pending the target GitHub URL, visibility, commit identity and authenticated push route."
+    },
+    {
+      "utc": "2026-09-04T12:13:10Z",
+      "from": "S3_METHODS_DRAFT",
+      "to": "S3_METHODS_DRAFT",
+      "reason": "The public GitHub target and commit identity were supplied. Code availability now names the repository, the release is committed as b0bf8af on top of the remote main history, and compiled/static QA passes. Anonymous HTTPS push was rejected as expected; T303 remains IN_PROGRESS only until the generated write-enabled deploy key is installed and the commit is pushed."
+    },
+    {
+      "utc": "2026-09-04T12:16:05Z",
+      "from": "S3_METHODS_DRAFT",
+      "to": "S4_INTRO_DISCUSSION",
+      "reason": "T303 and T503 completed after the repository-specific deploy key enabled publication of the curated release to the public GitHub main branch at b0bf8af. Data and Code availability match the published release, the user-requested optional disclosure and declaration sections remain removed, release verification and manuscript QA pass, and all revised S3 exit criteria are met."
     }
   ]
 }
