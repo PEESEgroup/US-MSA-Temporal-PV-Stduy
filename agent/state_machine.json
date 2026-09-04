@@ -1,0 +1,677 @@
+{
+  "schema_version": "1.0",
+  "manuscript": "temporal_building_rooftop_pv",
+  "target_journal": "Nature Cities",
+  "target_content_type": "Article",
+  "updated_utc": "2026-09-04T11:32:53Z",
+  "current_state": "S3_METHODS_DRAFT",
+  "workflow_status_values": [
+    "TODO",
+    "IN_PROGRESS",
+    "DONE",
+    "BLOCKED",
+    "DEFERRED"
+  ],
+  "scientific_status_values": [
+    "FROZEN",
+    "REPRODUCED",
+    "PRELIMINARY",
+    "PLANNED",
+    "BLOCKED"
+  ],
+  "state_order": [
+    "S0_SCAFFOLD",
+    "S1_EVIDENCE_WIRING",
+    "S2_RESULTS_DRAFT",
+    "S3_METHODS_DRAFT",
+    "S4_INTRO_DISCUSSION",
+    "S5_ABSTRACT_BACKMATTER",
+    "S6_FULL_QA",
+    "S7_SUBMISSION_READY"
+  ],
+  "states": {
+    "S0_SCAFFOLD": {
+      "status": "DONE",
+      "purpose": "Create a clean modular manuscript independent of the retired paper/manuscript.tex scaffold.",
+      "exit_criteria": [
+        "main.tex and modular section files exist",
+        "Figures 1-5 resolve from paper/figures/v1",
+        "Local bibliography and Nature bibliography style exist",
+        "agent.md and state_machine.json exist"
+      ],
+      "next": ["S1_EVIDENCE_WIRING"]
+    },
+    "S1_EVIDENCE_WIRING": {
+      "status": "DONE",
+      "purpose": "Connect generated numerical macros, final caption sources, figure provenance and citation auditing before prose drafting.",
+      "exit_criteria": [
+        "All main-text result values are available through generated macros with a manifest",
+        "Captions 1-5 match the frozen panel order and plotted data",
+        "Figure 5 provenance and Methods routing are documented",
+        "Seed bibliography entries selected for the Introduction have verified metadata",
+        "Static TeX input and citation-key checks pass"
+      ],
+      "next": ["S2_RESULTS_DRAFT"]
+    },
+    "S2_RESULTS_DRAFT": {
+      "status": "DONE",
+      "purpose": "Draft the three conclusion-led Results subsections from reproduced evidence.",
+      "exit_criteria": [
+        "Results 1-3 define denominators before quantities",
+        "Every result number is generated and traceable",
+        "Figures 1-4 and captions agree with the text",
+        "C8-dependent findings use reproduced block-bootstrap intervals while retaining target-population limits",
+        "No unresolved draft marker remains in Results"
+      ],
+      "next": ["S3_METHODS_DRAFT"]
+    },
+    "S3_METHODS_DRAFT": {
+      "status": "IN_PROGRESS",
+      "purpose": "Write reproducible Methods after the main text and place Figure 5 in the workflow subsection.",
+      "exit_criteria": [
+        "Target population, inventory paths, linkage, censoring, risk sets and estimands are reproducible",
+        "Figure 5 caption and provenance are complete",
+        "Area attribution and capacity-equivalent scenarios are explicit",
+        "Uncertainty status and information gate are correctly described",
+        "Data and code availability statements match the prepared release bundle",
+        "No unresolved draft marker remains in Methods"
+      ],
+      "next": ["S4_INTRO_DISCUSSION"]
+    },
+    "S4_INTRO_DISCUSSION": {
+      "status": "TODO",
+      "purpose": "Draft the unheaded Introduction and bounded Discussion for a broad urban-research audience.",
+      "exit_criteria": [
+        "Every literature claim has a verified primary or authoritative citation",
+        "Introduction identifies the urban problem, gap, design and contribution without pipeline-first framing",
+        "Discussion separates observed results from mechanism hypotheses",
+        "Anchor-survivor, candidate-scope, censoring and uncertainty limitations are retained",
+        "No causal policy claim is made",
+        "No unresolved draft marker remains in Introduction or Discussion"
+      ],
+      "next": ["S5_ABSTRACT_BACKMATTER"]
+    },
+    "S5_ABSTRACT_BACKMATTER": {
+      "status": "TODO",
+      "purpose": "Finalize the title, unreferenced abstract, authorship and submission declarations.",
+      "exit_criteria": [
+        "Title is at most 90 characters and follows journal style",
+        "Abstract is at most 150 words and contains no citations",
+        "Authors, affiliations and corresponding author are confirmed",
+        "Data and code availability statements match actual release permissions",
+        "Main text and Methods word counts meet the current journal limits"
+      ],
+      "next": ["S6_FULL_QA"]
+    },
+    "S6_FULL_QA": {
+      "status": "TODO",
+      "purpose": "Complete scientific, editorial, reference, figure, Supplementary and compilation QA.",
+      "exit_criteria": [
+        "Claims-evidence matrix agrees with the manuscript",
+        "All required sensitivity and uncertainty gates are completed or explicitly bounded",
+        "All figure, table, label, reference and citation links resolve",
+        "Main and Supplementary TeX compile cleanly",
+        "No stale placeholders or prohibited wording remain",
+        "Current Nature Cities instructions are rechecked",
+        "Cover-letter evidence summary is ready"
+      ],
+      "next": ["S7_SUBMISSION_READY"]
+    },
+    "S7_SUBMISSION_READY": {
+      "status": "TODO",
+      "purpose": "Prepare the complete journal submission package.",
+      "exit_criteria": [
+        "Final author approval",
+        "Submission PDF and source package verified",
+        "Cover letter and Supplementary Information included",
+        "Data and code release locations active",
+        "No required TODO, BLOCKED item or draft marker affects a submitted claim"
+      ],
+      "next": []
+    }
+  },
+  "todos": [
+    {
+      "id": "T001",
+      "state": "S0_SCAFFOLD",
+      "workflow_status": "DONE",
+      "task": "Create the clean modular manuscript and Supplementary scaffolds.",
+      "outputs": ["main.tex", "sections/", "captions/", "supplementary.tex"]
+    },
+    {
+      "id": "T002",
+      "state": "S0_SCAFFOLD",
+      "workflow_status": "DONE",
+      "task": "Copy the user-authorized seed bibliography and Nature bibliography style from reference_7pairs_v2/clean.",
+      "outputs": ["references.bib", "sn-nature.bst"],
+      "note": "The 35 seed entries are not automatically verified for use in the new manuscript."
+    },
+    {
+      "id": "T003",
+      "state": "S0_SCAFFOLD",
+      "workflow_status": "DONE",
+      "task": "Record the current Nature Cities Article structure and limits from official pages.",
+      "outputs": ["agent.md"],
+      "evidence_checked_utc": "2026-09-03"
+    },
+    {
+      "id": "T101",
+      "state": "S1_EVIDENCE_WIRING",
+      "workflow_status": "DONE",
+      "task": "Build generated Results macros and a manifest from canonical machine-readable tables.",
+      "required_inputs": [
+        "../../data_high_level/results_conclusion_summary.csv",
+        "../../data_high_level/area_weighted_results_summary.csv",
+        "../../data_high_level/city_roof_area_weighted_stock_flow.csv",
+        "../../data_high_level/area_weighted_results_manifest.json",
+        "../../data_high_level/roof_area_weighted_results_manifest.json"
+      ],
+      "outputs": [
+        "generated/results_macros.tex",
+        "generated/results_macros_source.csv",
+        "generated/results_macros_checks.json",
+        "generated/results_macros_manifest.json"
+      ],
+      "generator": "scripts/build_results_macros.py",
+      "scientific_status": "REPRODUCED",
+      "qa": "89 unique macros; 58/58 checks passed; all recorded output hashes match; TeX and provenance CSV are stable across repeated builds."
+    },
+    {
+      "id": "T102",
+      "state": "S1_EVIDENCE_WIRING",
+      "workflow_status": "DONE",
+      "task": "Replace caption placeholders with panel-complete captions reconciled to frozen plotted CSVs and current Figure Plan.",
+      "outputs": [
+        "captions/fig_1_caption.tex",
+        "captions/fig_2_caption.tex",
+        "captions/fig_3_caption.tex",
+        "captions/fig_4_caption.tex",
+        "captions/fig_5_caption.tex"
+      ],
+      "qa": "Captions match the approved panel order and evidence contracts; all five are brace-balanced and contain no draft markers. Figure 1-4 bundle hashes and checks were verified, collection hashes match, and the Figure 4 gate value is supplied by a generated macro. Figure 5 remains a PRELIMINARY Methods asset with provenance limitations tracked in T103; its five previously flagged spelling errors were corrected and passed artwork text QA under T106."
+    },
+    {
+      "id": "T103",
+      "state": "S1_EVIDENCE_WIRING",
+      "workflow_status": "DONE",
+      "task": "Recover or document Figure 5 source provenance, final text, dimensions and evidence status without modifying fig_5.pdf.",
+      "outputs": ["generated/figure5_provenance.json"],
+      "note": "The PDF hash, metadata, dimensions and panel inventory are recorded; editable artwork and a canonical freeze bundle remain unavailable."
+    },
+    {
+      "id": "T104",
+      "state": "S1_EVIDENCE_WIRING",
+      "workflow_status": "DONE",
+      "task": "Audit the seed bibliography, select relevant entries and verify metadata against primary sources.",
+      "outputs": [
+        "generated/citation_audit.csv",
+        "generated/citation_audit_manifest.json",
+        "references.bib"
+      ],
+      "qa": "All 35 seed entries were audited: 33/33 DOI records resolved and two non-DOI records were checked against official sources. The selection contains 13 CORE, 15 RESERVE and 7 NOT_SELECTED entries; eight bibliography records were corrected and no metadata mismatch remains unresolved."
+    },
+    {
+      "id": "T105",
+      "state": "S1_EVIDENCE_WIRING",
+      "workflow_status": "DONE",
+      "task": "Run static TeX input, brace, label/reference and citation-key checks.",
+      "outputs": ["generated/static_tex_checks.json"]
+    },
+    {
+      "id": "T106",
+      "state": "S1_EVIDENCE_WIRING",
+      "workflow_status": "DONE",
+      "task": "Validate and register the user-supplied corrected Figure 5 PDF.",
+      "outputs": [
+        "../figures/v1/fig_5.pdf",
+        "generated/figure5_provenance.json",
+        "../figures/v1/collection_manifest.json"
+      ],
+      "qa": "The user-supplied corrected PDF has a new recorded hash. Text extraction and raster inspection confirm that intersate, foorprints, latseset, builiding and Consored are absent and their corrected forms are present; source-bundle provenance remains PRELIMINARY."
+    },
+    {
+      "id": "T201",
+      "state": "S2_RESULTS_DRAFT",
+      "workflow_status": "DONE",
+      "task": "Draft Results conclusion 1 around Figure 1 and claims C1-C2.",
+      "outputs": [
+        "sections/02_results.tex",
+        "generated/results_macros.tex",
+        "generated/results_macros_source.csv",
+        "generated/results_macros_checks.json",
+        "generated/results_macros_manifest.json"
+      ],
+      "scientific_status": "REPRODUCED",
+      "qa": "The revised three-paragraph section defines separate PV-area and Building-roof-mask denominators before percentages and adds generated summaries showing the C1 direction and the C2 left-censoring dominance in all 15 city inventories. C2 is explicitly limited to the interval-resolved non-conflict subset and no longer implies a population-wide delay. All 18 result references resolve to generated macros, all 63 macro checks pass, no literal result value or draft marker remains, and the claim matrix agrees. Per user instruction, this revision received static checks without compilation or visual inspection."
+    },
+    {
+      "id": "T202",
+      "state": "S2_RESULTS_DRAFT",
+      "workflow_status": "DONE",
+      "task": "Draft Results conclusion 2 around Figure 2 and claims C3-C5.",
+      "outputs": [
+        "sections/02_results.tex",
+        "generated/results_macros.tex",
+        "generated/results_macros_source.csv",
+        "generated/results_macros_checks.json",
+        "generated/results_macros_manifest.json"
+      ],
+      "scientific_status": "REPRODUCED",
+      "qa": "The four-paragraph section defines the new-Building and existing-Building cohort denominators before yield comparisons, reports the new-route footprint and area-yield advantages, and reconciles them to existing-route total-area dominance through the exact stock × intensity × footprint identity and parity arithmetic. All 19 result references resolve to generated macros, including a new existing/new event-intensity macro; all 64 macro checks and all 53 Figure 2 freeze hashes pass. The narrow-scope sensitivity was checked and preserves the pooled directions, but remains routed to SI and does not clear the C12 target-domain gate. No literal result value or draft marker remains. Per user instruction, only static checks were run."
+    },
+    {
+      "id": "T203",
+      "state": "S2_RESULTS_DRAFT",
+      "workflow_status": "DONE",
+      "task": "Draft Results conclusion 3 around Figures 3-4 and claims C5-C7, C10 and C14.",
+      "outputs": [
+        "sections/02_results.tex",
+        "generated/results_macros.tex",
+        "generated/results_macros_source.csv",
+        "generated/results_macros_checks.json",
+        "generated/results_macros_manifest.json",
+        "generated/static_tex_checks.json",
+        "../SI_CONTENT_REGISTER.md"
+      ],
+      "scientific_status": "REPRODUCED",
+      "qa": "The Results 3 section defines count, Building-normalized PV-area and roof-normalized PV-area diagnostics before comparing their pooled and city directions; separates host-size distributions, Gini inequality and largest-one-percent concentration; and reports gate-eligible diagnostic disagreement and observed transition switching without annual, ranking or causal language. All 35 result macros resolve to generated provenance, all 140 generator checks pass, and all 35 Figure 3 and 23 Figure 4 frozen-bundle hashes match. Five Results 3 SI items record gate, scope, tail, timing and uncertainty requirements. No literal result value or draft marker remains. Per user instruction, only static checks were run.",
+      "si_follow_up": "Five/twenty-event transition-gate sensitivity, full/narrow denominator sensitivity, host-tail influence and timing/sequence validation remain registered for SI. Continuous-area uncertainty was subsequently completed under T204."
+    },
+    {
+      "id": "T204",
+      "state": "S2_RESULTS_DRAFT",
+      "workflow_status": "DONE",
+      "task": "Complete C8 spatial-block bootstrap uncertainty for continuous PV-area outcomes and integrate the results into Results and SI.",
+      "outputs": [
+        "../../data_high_level/area_uncertainty_city.csv",
+        "../../data_high_level/area_uncertainty_pooled.csv",
+        "../../data_high_level/area_uncertainty_transition.csv",
+        "../../data_high_level/area_uncertainty_block_sufficient_statistics.csv",
+        "../../data_high_level/area_uncertainty_checks.json",
+        "../../data_high_level/area_uncertainty_manifest.json",
+        "generated/area_uncertainty_macros.tex",
+        "generated/table_s5_area_uncertainty_city.tex",
+        "generated/table_s6_area_uncertainty_diagnostics.tex",
+        "sections/02_results.tex",
+        "supplementary.tex"
+      ],
+      "scientific_status": "REPRODUCED",
+      "qa": "The city-stratified nonparametric source-block bootstrap uses 5,000 primary replicates, preserves all transitions and routes under a shared block weight, and reproduces every released city/transition count, PV-area and roof-area point estimate. All 15 city and pooled estimates are fully estimable; 55 prespecified Figure 4 gate-eligible transitions have negligible non-estimability. Percentile and transformed bootstrap-normal classifications agree, 2,500-versus-5,000 and alternate-seed endpoints are stable, and only Boston's roof-normalized city interval changes classification under the coarsest 4x cluster sensitivity. The intervals remain conditional on the full Anchor AOI and anchor-surviving linked PV. Per user instruction, no compilation or visual inspection was performed."
+    },
+    {
+      "id": "T304",
+      "state": "S3_METHODS_DRAFT",
+      "workflow_status": "DONE",
+      "priority": "HIGH",
+      "task": "Implement the post-review closure of Results 1-3 and the C8 Methods evidence loop without changing the three-section Results architecture.",
+      "review_source": "User review recorded 2026-09-04; Results structure and evidence chain are accepted, but the following edits remain before manuscript-level closure.",
+      "claim_ids": ["C8", "C12"],
+      "required_reading": [
+        "../../PAPER_ANALYSIS_AGENDA.md",
+        "../README.md",
+        "../CLAIMS_EVIDENCE_MATRIX.md",
+        "../FIGURE_PLAN.md",
+        "sections/02_results.tex",
+        "sections/04_methods.tex",
+        "scripts/build_results_macros.py",
+        "../../data_high_level/area_uncertainty_manifest.json",
+        "../../data_high_level/c12_partial_validation_manifest.json"
+      ],
+      "subtasks": [
+        {
+          "priority": "HIGH",
+          "location": "sections/02_results.tex:65",
+          "action": "Narrow the opening pooled claim in Results 2 to the count- and area-summed 15-city aggregate, and replace mechanism-suggestive 'produced' with 'carried'. Use the approved wording: 'In the count- and area-summed 15-city aggregate, newly observed Buildings carried larger PV footprints and more PV area per corresponding risk unit ...'."
+        },
+        {
+          "priority": "HIGH",
+          "location": "sections/02_results.tex:161",
+          "action": "Promote the complete pooled C8 comparison into Results 3: count RR 0.928 (95% interval 0.901-0.957), Building-normalized area ratio 2.19 (2.03-2.37), and roof-normalized ratio 3.15 (2.92-3.42). State immediately that these are direct aggregates over the observed cities, not estimates from a cross-city population model."
+        },
+        {
+          "priority": "HIGH",
+          "location": "C8 gate-specific evidence and Results 3 near the current 'negligible non-estimability' sentence",
+          "action": "Extend the paper-analysis generator and manifest with gate-eligible roof-normalized transition counts. Report that among 55 gate-eligible transitions, 35 have 95% intervals wholly above one and 20 include one; all four below-one point estimates belong to the latter group. Do not substitute the existing 39/67 all-transition macro for this 35/55 result."
+        },
+        {
+          "priority": "HIGH",
+          "location": "sections/02_results.tex:186 and Figure 4/Results 3 headline wording",
+          "action": "Replace 'Charlotte and Philadelphia crossed parity' with wording that says their primary 95% intervals included one; add that Boston's interval also included one under the coarsest cluster sensitivity. Make clear that the headline phenomenon is point-estimate switching. State that no gate-eligible, roof-normalized below-one point estimate has a fully below-one interval."
+        },
+        {
+          "priority": "MEDIUM",
+          "location": "sections/02_results.tex:133",
+          "action": "Retain the full/narrow direction agreement across all 15 cities, but add a compact C12 boundary sentence citing Tables S8-S9: canonical linkage coverage 90.24%, the most permissive frozen candidate-bridge scenario 95.56%, and 19,535 anchor PV targets without a Stage 7B candidate. Explicitly call full/narrow agreement within-domain sensitivity, not external validation."
+        },
+        {
+          "priority": "MEDIUM",
+          "location": "Results 1 panel-d paragraph",
+          "action": "Lead with the substantive result that only 11.5% of resolved PV area enters visible lag bins and the peak is in the first non-negative bin; move midpoint-allocation detail to the caption or Methods."
+        },
+        {
+          "priority": "MEDIUM",
+          "location": "Results 2 capacity translation",
+          "action": "Add the existing generated capacity-equivalent translation: 20.35 km2 corresponds to nominal 4.07 GWdc-equivalent, with the 3.26-4.28 scenario range. State explicitly that this is not measured nameplate capacity."
+        },
+        {
+          "priority": "HIGH",
+          "location": "sections/04_methods.tex:64",
+          "action": "Remove the C8 released-after-update draft note and document the released uncertainty procedure: resampling unit (spatial source block), shared block weights across the linked outcome components, percentile interval construction, treatment of non-estimable replicates, and coarse-cluster sensitivity. Ensure the C8 Methods description matches the released manifest and the intervals already used in Results."
+        }
+      ],
+      "required_outputs": [
+        "sections/02_results.tex",
+        "sections/04_methods.tex",
+        "scripts/build_results_macros.py",
+        "generated/results_macros.tex",
+        "generated/results_macros_source.csv",
+        "generated/results_macros_checks.json",
+        "generated/results_macros_manifest.json",
+        "generated/area_uncertainty_macros.tex",
+        "generated/table_s5_area_uncertainty_city.tex",
+        "generated/table_s6_area_uncertainty_diagnostics.tex",
+        "../../data_high_level/area_uncertainty_manifest.json",
+        "generated/static_tex_checks.json",
+        "../../scripts/build_area_block_bootstrap.py",
+        "../CLAIMS_EVIDENCE_MATRIX.md",
+        "supplementary.tex",
+        "scripts/check_static_tex.py",
+        "main.pdf",
+        "supplementary.pdf"
+      ],
+      "acceptance_criteria": [
+        "No change to the three-section Results architecture.",
+        "All newly reported numbers are generated from machine-readable tables and recorded in manifests; no values are typed directly into TeX.",
+        "C8 pooled count and both area estimands show intervals on opposite sides of parity, with the direct-observed-city aggregate limitation stated.",
+        "The 35/55 gate-specific transition result is independently generated and is not confused with the existing 39/67 all-transition statistic.",
+        "Interval wording distinguishes point-estimate switching from intervals that include one, including Boston's coarse-cluster sensitivity.",
+        "C12 coverage and 19,535-target boundary are cited in Results without expanding the section into the full S8-S9 accounting.",
+        "The capacity translation is labelled DC-capacity-equivalent and not measured nameplate capacity.",
+        "No C8 draft marker remains in Methods; the resampling, percentile, non-estimability and sensitivity details are reproducible from the released manifest.",
+        "Run the smallest relevant analysis/generator commands, identity and denominator checks, stale-wording search, and static TeX checks; compile if a LaTeX engine is available and report if unavailable.",
+        "Update CLAIMS_EVIDENCE_MATRIX.md if claim wording or evidence status changes, and update this TODO with final QA and status."
+      ],
+      "completed_utc": "2026-09-04T04:55:39Z",
+      "scientific_status": "REPRODUCED",
+      "qa": "C8 was regenerated with 5,000 primary source-block bootstrap replicates after binding the frozen Figure 4 information-gate JSON as an explicit input. All 15 city and 67 transition point estimates reconciled to the released area and roof-area tables. The gate-specific roof interval accounting independently reproduced 55 eligible transitions: 35 intervals wholly above one, 20 including one and none wholly below one; all four below-one point estimates have intervals including one. Pooled count, Building-area and roof-area ratios and intervals, C12 coverage limits, capacity-equivalent translations and density scenarios are generated macros with manifest-bound provenance. Results retains three subsections and no draft markers; the C8 Methods draft marker was replaced with the released resampling procedure. Results-macro QA passed 141 checks, static TeX QA passed with no missing macros, figures, citations or references, and current main and Supplementary PDFs compiled. Main layout inspection found no clipping; Supplementary wide-table overfull warnings remain assigned to T606/T607 rather than T304."
+    },
+    {
+      "id": "T301",
+      "state": "S3_METHODS_DRAFT",
+      "workflow_status": "DONE",
+      "task": "Draft the Methods workflow, temporal evidence, linkage, censoring and risk-panel construction around Figure 5.",
+      "outputs": [
+        "sections/04_methods.tex",
+        "references.bib",
+        "generated/static_tex_checks.json",
+        "main.pdf",
+        "supplementary.pdf"
+      ],
+      "completed_utc": "2026-09-04T05:09:44Z",
+      "scientific_status": "REPRODUCED",
+      "qa": "The Methods workflow now documents separate Building and PV temporal paths, opaque city-specific cohort grids, raw P/A/U evidence, the frozen PAU onset resolver, Stage 9 OSM-first/SAM3-fallback identity resolution, unavailable relationships, multi-source convergence, censored onset and the strict adjacent raw-known risk panel. It explicitly distinguishes onset reduction from primary risk eligibility: U is retained in raw provenance and never converted to A or bridged; resolved persistence-imputed states do not establish stock eligibility. The new- and existing-route denominators, first-event risk exit, unpaired-Building zero-event interpretation and full/narrow target-domain roles are defined. The verified SegFormer source is cited, and its BibTeX conference metadata was completed for compatibility with sn-nature.bst. Frozen 15-city index checks and raw-known risk-panel identity/count reconciliations pass. T301 removed three Methods draft markers; 22 markers remain for other TODOs. Static TeX QA is PASS_COMPILED with no missing citations, figures, macros or references; main and Supplementary PDFs compile, and visual inspection of Methods pages found no clipping. The existing C12 path overfull and wide Supplementary-table overfull warnings remain assigned to T606/T607. Claim wording and evidence status did not change, so CLAIMS_EVIDENCE_MATRIX.md required no edit."
+    },
+    {
+      "id": "T302",
+      "state": "S3_METHODS_DRAFT",
+      "workflow_status": "DONE",
+      "task": "Draft stock-flow, PV-area, roof-area and capacity-equivalent estimands with exact denominator definitions.",
+      "outputs": [
+        "sections/04_methods.tex",
+        "generated/results_macros.tex",
+        "generated/results_macros_source.csv",
+        "generated/results_macros_checks.json",
+        "generated/results_macros_manifest.json",
+        "generated/static_tex_checks.json",
+        "main.pdf",
+        "supplementary.pdf"
+      ],
+      "completed_utc": "2026-09-04T05:22:19Z",
+      "scientific_status": "REPRODUCED",
+      "qa": "Methods now defines the transition-level count identity, route-specific count intensities, anchor host-area attribution, mean event-host area, PV-area yield per risk unit, the exact three-factor area identity, and roof-area-normalized yields with distinct new-Building roof area and existing-Building roof-area--cohort exposure denominators. It marks zero or non-positive components non-estimable without continuity correction and distinguishes composition from propensity. Capacity is defined only as a constant-density DC-capacity-equivalent translation using generated 0.16, 0.20 and 0.211 kWdc m-2 scenario macros; it is not presented as measured or calibrated nameplate capacity. The area and roof-area manifests have verified inputs and passing denominator, reconciliation, first-event attribution and identity checks; the largest observed absolute three-factor residual is 4.44e-16. The results macro generator reproduced 95 macros and 141 passing checks. T302 removed two Methods draft markers, leaving 20 markers assigned to other TODOs. Static TeX QA is PASS_COMPILED with current main and Supplementary PDFs, no missing macros, citations or references, and visual inspection of Methods pages found no clipping or new overfull boxes. Existing C12 and wide Supplementary-table overfull warnings remain assigned to T606/T607. Claim wording and evidence status did not change, so CLAIMS_EVIDENCE_MATRIX.md required no edit."
+    },
+    {
+      "id": "T303",
+      "state": "S3_METHODS_DRAFT",
+      "workflow_status": "IN_PROGRESS",
+      "task": "Prepare Data and Code availability statements and a GitHub-ready release of the main figures, plotting code and agent-authored analysis code; remove reproducibility/software/AI disclosure and the optional contribution, interests and acknowledgement sections per user instruction.",
+      "outputs": [
+        "sections/04_methods.tex",
+        "sections/05_backmatter.tex",
+        "../github_release/README.md",
+        "../github_release/analysis/",
+        "../github_release/figures/",
+        "../github_release/agent/",
+        "../github_release/release_manifest.json",
+        "../github_release/verify_release.py",
+        "generated/static_tex_checks.json",
+        "main.pdf"
+      ],
+      "pending": "Provide the target GitHub repository URL, public/private visibility and commit identity or authenticated push route; then replace the single repository-URL draft marker, commit and push.",
+      "qa_partial": "The curated 7.8-MB local Git repository contains 152 tracked files: approved Figures 1-5, plotted CSV/check/manifest/note files for Figures 1-4, plotting code, paper-analysis code, shared style and agent workflow records. The release excludes source imagery, upstream runs, the complete 220-MB high-level table collection, credentials and the unverified Arial font redistribution. Its SHA-256 release manifest verifies all 151 files covered by the inventory; Python syntax and secret-pattern scans pass. The manuscript compiles and static TeX QA is PASS_COMPILED; visual inspection of the availability page found no clipping. One explicit draft marker remains only for the final GitHub URL."
+    },
+    {
+      "id": "T401",
+      "state": "S4_INTRO_DISCUSSION",
+      "workflow_status": "TODO",
+      "task": "Conduct and document the primary-source literature audit for the Introduction."
+    },
+    {
+      "id": "T402",
+      "state": "S4_INTRO_DISCUSSION",
+      "workflow_status": "TODO",
+      "task": "Draft the unheaded Introduction within the Nature Cities main-text budget."
+    },
+    {
+      "id": "T403",
+      "state": "S4_INTRO_DISCUSSION",
+      "workflow_status": "TODO",
+      "task": "Draft the Discussion with bounded mechanisms and limitations."
+    },
+    {
+      "id": "T501",
+      "state": "S5_ABSTRACT_BACKMATTER",
+      "workflow_status": "TODO",
+      "task": "Finalize a title within 90 characters and an unreferenced abstract within 150 words."
+    },
+    {
+      "id": "T502",
+      "state": "S5_ABSTRACT_BACKMATTER",
+      "workflow_status": "BLOCKED",
+      "task": "Insert authors, affiliations and corresponding author.",
+      "blocked_by": "Author-provided metadata"
+    },
+    {
+      "id": "T503",
+      "state": "S5_ABSTRACT_BACKMATTER",
+      "workflow_status": "BLOCKED",
+      "task": "Finalize Data and Code availability statements.",
+      "blocked_by": "Target GitHub repository URL, visibility, commit identity and authenticated push route"
+    },
+    {
+      "id": "T601",
+      "state": "S6_FULL_QA",
+      "workflow_status": "DONE",
+      "scientific_status": "REPRODUCED",
+      "claim_id": "C8",
+      "task": "Complete block-clustered or bootstrap uncertainty for continuous PV-area outcomes, or retain explicit descriptive qualification.",
+      "outputs": ["../../data_high_level/area_uncertainty_manifest.json", "generated/table_s5_area_uncertainty_city.tex", "generated/table_s6_area_uncertainty_diagnostics.tex"]
+    },
+    {
+      "id": "T602",
+      "state": "S6_FULL_QA",
+      "workflow_status": "DEFERRED",
+      "scientific_status": "PLANNED",
+      "claim_id": "C9",
+      "task": "Calibrate plan-view PV area to permit or PTO nameplate capacity.",
+      "defer_rule": "May remain deferred if every capacity value is labelled DC-capacity-equivalent."
+    },
+    {
+      "id": "T603",
+      "state": "S6_FULL_QA",
+      "workflow_status": "DEFERRED",
+      "scientific_status": "PLANNED",
+      "claim_id": "C11",
+      "task": "Complete a context-to-risk-panel join and model.",
+      "defer_rule": "Keep context outside the main Results while the gate is not passed."
+    },
+    {
+      "id": "T604",
+      "state": "S6_FULL_QA",
+      "workflow_status": "DONE",
+      "scientific_status": "REPRODUCED",
+      "claim_id": "C12",
+      "task": "Complete or explicitly bound candidate-domain and anchor-survivor validation.",
+      "execution_route": "User-authorized partial validation plus explicit limitation: aggregate full/narrow, candidate-bridge and unknown/unavailable accounting in SI; retain non-candidate-PV and historical-disappearance non-identifiability in Methods and Discussion.",
+      "outputs": [
+        "../../data_high_level/c12_scope_full_narrow.csv",
+        "../../data_high_level/c12_candidate_bridge_accounting.csv",
+        "../../data_high_level/c12_candidate_bridge_scenarios.csv",
+        "../../data_high_level/c12_unknown_unavailable_accounting.csv",
+        "../../data_high_level/c12_partial_validation_checks.json",
+        "../../data_high_level/c12_partial_validation_manifest.json",
+        "generated/table_s7_scope_full_narrow.tex",
+        "generated/table_s8_candidate_bridge.tex",
+        "generated/table_s9_unknown_unavailable.tex",
+        "supplementary.tex",
+        "sections/03_discussion.tex",
+        "sections/04_methods.tex"
+      ],
+      "qa": "All 15 city sets, primary keys, strict and broad candidate partitions, frozen totals and high-level input hashes against their owning manifests reconcile. Full/narrow Building- and roof-area directions and existing-route area-majority status are preserved in all 15 cities. Raw PV U counts reconcile to PAU fields; unknown observations and unavailable relationships retain separate units. The manifest binds 26 inputs and 13 outputs. Static TeX checks pass; no compilation or visual inspection was performed per user instruction. Non-candidate PV and historical disappearance remain explicitly unidentifiable."
+    },
+    {
+      "id": "T605",
+      "state": "S6_FULL_QA",
+      "workflow_status": "BLOCKED",
+      "scientific_status": "BLOCKED",
+      "claim_id": "C13",
+      "task": "Make causal claims about mandates, codes, permits or incentives.",
+      "blocked_by": "No credible intervention design, validated treatment timing, controls, pre-trends and placebos",
+      "instruction": "Exclude causal claims from the manuscript."
+    },
+    {
+      "id": "T606",
+      "state": "S6_FULL_QA",
+      "workflow_status": "TODO",
+      "task": "Build the Supplementary figures, tables, source data and sensitivity documentation required for interpretation and replication."
+    },
+    {
+      "id": "T607",
+      "state": "S6_FULL_QA",
+      "workflow_status": "TODO",
+      "task": "Compile and visually inspect main and Supplementary PDFs.",
+      "note": "The former compiler-availability blocker was resolved on 2026-09-04. Main and Supplementary compile; final visual QA remains after content completion, including wide Supplementary-table overflow remediation."
+    },
+    {
+      "id": "T608",
+      "state": "S6_FULL_QA",
+      "workflow_status": "TODO",
+      "task": "Recheck current Nature Cities author instructions, reference count, word counts, display-item count and submission package."
+    },
+    {
+      "id": "T701",
+      "state": "S7_SUBMISSION_READY",
+      "workflow_status": "TODO",
+      "task": "Prepare the cover letter for Nature Cities and assemble the final submission package."
+    }
+  ],
+  "scientific_gates": {
+    "C8_area_uncertainty": "Required for unqualified inferential city/transition language; otherwise retain descriptive wording.",
+    "C9_nameplate_calibration": "Optional for submission only if all capacity translations remain explicitly DC-capacity-equivalent.",
+    "C11_context_model": "Optional; context stays outside main Results unless released.",
+    "C12_target_domain": "Partial validation is reproduced; every claim remains bounded to in-scope, anchor-surviving PV and Buildings because non-candidate PV and historical disappearance are unidentifiable.",
+    "C13_causal_policy": "Blocked and excluded from current manuscript."
+  },
+  "history": [
+    {
+      "utc": "2026-09-03T20:30:00Z",
+      "from": "S0_SCAFFOLD",
+      "to": "S1_EVIDENCE_WIRING",
+      "reason": "Clean manuscript, figure paths, seed bibliography, agent contract and TODO state machine were initialized."
+    },
+    {
+      "utc": "2026-09-03T20:43:21Z",
+      "from": "S1_EVIDENCE_WIRING",
+      "to": "S1_EVIDENCE_WIRING",
+      "reason": "Static TeX checks passed without a compiler, and the available Figure 5 PDF provenance was documented."
+    },
+    {
+      "utc": "2026-09-03T20:59:06Z",
+      "from": "S1_EVIDENCE_WIRING",
+      "to": "S1_EVIDENCE_WIRING",
+      "reason": "T101 completed: 89 traceable Results macros were generated with per-macro provenance, 58 passing checks, cohort-aware manifest metadata and verified output hashes."
+    },
+    {
+      "utc": "2026-09-03T23:13:55Z",
+      "from": "S1_EVIDENCE_WIRING",
+      "to": "S1_EVIDENCE_WIRING",
+      "reason": "T102 completed: formal panel-complete captions for Figures 1-5 were reconciled to the approved figures and evidence contracts; caption draft markers were removed and static TeX checks passed without a compiler."
+    },
+    {
+      "utc": "2026-09-04T00:06:50Z",
+      "from": "S1_EVIDENCE_WIRING",
+      "to": "S2_RESULTS_DRAFT",
+      "reason": "T104 completed: all 35 seed bibliography entries were verified and triaged, eight records were corrected, the citation-audit manifest passed, and all S1 evidence-wiring exit criteria were met."
+    },
+    {
+      "utc": "2026-09-04T00:49:42Z",
+      "from": "S2_RESULTS_DRAFT",
+      "to": "S2_RESULTS_DRAFT",
+      "reason": "T201 completed: the first Results subsection was drafted from C1-C2 and Figure 1 with traceable macros, explicit denominators and censoring limits. The corrected Figure 5 PDF was registered and passed artwork text QA; main and Supplementary compilation completed."
+    },
+    {
+      "utc": "2026-09-04T00:55:33Z",
+      "from": "S2_RESULTS_DRAFT",
+      "to": "S2_RESULTS_DRAFT",
+      "reason": "T201 was critically revised: two traceable city-consistency summaries were added, C2 was narrowed to reflect dominant left-censoring, the claims matrix was updated, and 63 static macro checks passed without recompiling or visually inspecting the manuscript."
+    },
+    {
+      "utc": "2026-09-04T01:02:08Z",
+      "from": "S2_RESULTS_DRAFT",
+      "to": "S2_RESULTS_DRAFT",
+      "reason": "T202 completed: Results conclusion 2 now quantifies the new-route footprint and PV-area-yield advantages, explains existing-route total-area dominance with the exact three-factor identity, and retains the first-event attribution and target-population limits. Sixty-four static macro checks passed without compilation or visual inspection."
+    },
+    {
+      "utc": "2026-09-04T01:30:55Z",
+      "from": "S2_RESULTS_DRAFT",
+      "to": "S3_METHODS_DRAFT",
+      "reason": "T203 completed: Results conclusion 3 now distinguishes count, Building-normalized area and roof-normalized area diagnostics, reports host-size concentration and gate-eligible transition switching, and retains descriptive uncertainty, timing and target-population limits. One hundred forty macro checks and static TeX plus Figure 3-4 freeze-hash QA passed without compilation or visual inspection; all three Results subsections now satisfy the S2 exit criteria."
+    },
+    {
+      "utc": "2026-09-04T03:03:00Z",
+      "from": "S3_METHODS_DRAFT",
+      "to": "S3_METHODS_DRAFT",
+      "reason": "T604 completed via the user-authorized partial-validation route: full/narrow, frozen candidate-bridge and unknown/unavailable summaries were released as Tables S7-S9 with checks and a hash-bound manifest. Results, Methods, Discussion and captions now retain the in-scope, anchor-surviving target and state that non-candidate PV and historical disappearance are unidentifiable. Static TeX QA passed without compilation or visual inspection."
+    },
+    {
+      "utc": "2026-09-04T04:18:11Z",
+      "from": "S3_METHODS_DRAFT",
+      "to": "S3_METHODS_DRAFT",
+      "reason": "User review accepted the three-section Results structure and evidence chain but requested a high-priority closure TODO (T304) for pooled-claim scope, complete C8 interval and gate-specific reporting, interval wording, C12 coverage boundary, two smaller Results additions, and removal of the C8 Methods draft note."
+    },
+    {
+      "utc": "2026-09-04T04:55:39Z",
+      "from": "S3_METHODS_DRAFT",
+      "to": "S3_METHODS_DRAFT",
+      "reason": "T304 completed: Results 1-3 were closed against the user review without changing their architecture; C8 now binds the frozen Figure 4 gate and generates pooled and 35-of-55 gate-specific interval macros; C12 and capacity-equivalent boundaries were added; the C8 Methods procedure was released; 141 macro checks and compiled static QA passed. The obsolete no-TeX-engine blocker on T607 was removed, while final Supplementary layout QA remains open."
+    },
+    {
+      "utc": "2026-09-04T05:09:44Z",
+      "from": "S3_METHODS_DRAFT",
+      "to": "S3_METHODS_DRAFT",
+      "reason": "T301 completed: Methods now documents the separate temporal evidence paths, frozen Stage 9 identity resolution, censored PAU onset and strict raw-known adjacent-cohort risk sets around Figure 5. The SegFormer citation compiles, indexed evidence and risk-panel reconciliation checks pass, and compiled static plus visual QA found no new layout failure."
+    },
+    {
+      "utc": "2026-09-04T05:22:19Z",
+      "from": "S3_METHODS_DRAFT",
+      "to": "S3_METHODS_DRAFT",
+      "reason": "T302 completed: Methods now defines the stock--flow count and area estimands, route-specific Building and roof-area denominators, exact three-factor identity, first-event host-area attribution and bounded DC-capacity-equivalent scenarios. Manifest checks, 141 macro checks, compiled static QA and visual Methods inspection passed without a new layout failure."
+    },
+    {
+      "utc": "2026-09-04T11:32:53Z",
+      "from": "S3_METHODS_DRAFT",
+      "to": "S3_METHODS_DRAFT",
+      "reason": "T303 scope was changed by user instruction. Reproducibility/software/AI disclosure and acknowledgement, contribution and interests sections were removed; Data and Code availability text and a verified GitHub-ready release repository were prepared locally. T303 remains IN_PROGRESS pending the target GitHub URL, visibility, commit identity and authenticated push route."
+    }
+  ]
+}

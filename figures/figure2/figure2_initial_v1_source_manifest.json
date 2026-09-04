@@ -1,0 +1,166 @@
+{
+  "analysis_scope": "native-vector composition of reproduced panel derivatives",
+  "figure": "Figure 2 native-vector a--d composition",
+  "generated_at_utc": "2026-09-03T20:00:57.789728+00:00",
+  "inputs": [
+    {
+      "bytes": 32569,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_a_aligned.pdf",
+      "role": "aligned_panel_a_vector_pdf",
+      "sha256": "1ab916a8ca9962eb23e0a7fec9bcd7f4f3e6d112bb71daa84e7ebd505a460d67"
+    },
+    {
+      "bytes": 216405,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_a_aligned.png",
+      "role": "aligned_panel_a_300dpi_png",
+      "sha256": "d611d75bb9158058af1a1af5598fd14b1aae38bf12d061183f7f69e6db23e214"
+    },
+    {
+      "bytes": 1142,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_a_aligned_checks.json",
+      "role": "aligned_panel_a_checks",
+      "sha256": "4a4fb9118b3ee900d19c422c382e7bf3477f01cb841a8a8c392b27595f78ca00"
+    },
+    {
+      "bytes": 4441,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_a_aligned_manifest.json",
+      "role": "aligned_panel_a_manifest",
+      "sha256": "8de50198c0830627cf8327eb9c689ab2b9fdf2a82223b39b9b268789e1e0a77a"
+    },
+    {
+      "bytes": 5448,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/panel_a_revision3/figure2_panel_a_data.csv",
+      "role": "frozen_panel_a_data",
+      "sha256": "1697d85e428e06dfbbc606db59aa0caf082031045fac897d2d6fba14ad292f8d"
+    },
+    {
+      "bytes": 32549,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/panel_a_revision3/figure2_panel_a_revision3.pdf",
+      "role": "frozen_panel_a_vector_pdf",
+      "sha256": "bedeb30ac48b37007a8f01c3856e6499761569bacc9293449742ee9d11c8ce67"
+    },
+    {
+      "bytes": 220640,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/panel_a_revision3/figure2_panel_a_revision3.png",
+      "role": "frozen_panel_a_300dpi_png",
+      "sha256": "99bbcfca87fdf3378da59fe9366dad04a6d5a4de902920a5a48587d25163b990"
+    },
+    {
+      "bytes": 2532,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/panel_a_revision3/figure2_panel_a_checks.json",
+      "role": "frozen_panel_a_checks",
+      "sha256": "c429b8519418831ef9cf99bfb2e5ecf5500f65745d5920846d2decd7092ab2cd"
+    },
+    {
+      "bytes": 3556,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/panel_a_revision3/figure2_panel_a_manifest.json",
+      "role": "frozen_panel_a_manifest",
+      "sha256": "a68e5649286a4106d09a9724b02a3f58ab53a23abb2a0038fd588778f3cfbddc"
+    },
+    {
+      "bytes": 3321,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/panel_a_revision3/freeze_manifest.json",
+      "role": "panel_a_freeze_manifest",
+      "sha256": "47831a718da67848218cd34c9fe71a0204de571f3f229951213cf61cee153ff9"
+    },
+    {
+      "bytes": 24701,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_draft.pdf",
+      "role": "panel_b_vector_pdf",
+      "sha256": "72ff9ecd3a25746e0490d0362d6ab9aa14b0844db20c3c7e80bf8f3fe81bfe7e"
+    },
+    {
+      "bytes": 103954,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_draft.png",
+      "role": "panel_b_300dpi_png",
+      "sha256": "fad89b1aab8d250db9254fd2356566fc6987b6ba6a9d60c538d248acae4540de"
+    },
+    {
+      "bytes": 713,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_data.csv",
+      "role": "panel_b_data",
+      "sha256": "67b924cad36b6f80250d0d828f96ba1beaaae519457bccb7ecf8875baac5f339"
+    },
+    {
+      "bytes": 2073,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_checks.json",
+      "role": "panel_b_checks",
+      "sha256": "1ab4b416ec0cd8e7c470c4b44265d5e135bbfd6d4b0a2dcc8cd193f124e17dd1"
+    },
+    {
+      "bytes": 3461,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_manifest.json",
+      "role": "panel_b_manifest",
+      "sha256": "5fd063786ddb39dc572c378ac51371bfdf79624476c679bb7d4630f7af94fb27"
+    },
+    {
+      "bytes": 40395,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panels_cd_shared.pdf",
+      "role": "panels_cd_shared_vector_pdf",
+      "sha256": "81c3203ee982028a127198d60c6b483760fcb8cceb5f170d290a5d160ca373c3"
+    },
+    {
+      "bytes": 296835,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panels_cd_shared.png",
+      "role": "panels_cd_shared_300dpi_png",
+      "sha256": "6cda7a8905e31b85eb2093834a3824f5ca37f2e6157eaa226c90e85ae172d866"
+    },
+    {
+      "bytes": 2396,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panels_cd_shared_checks.json",
+      "role": "panels_cd_shared_checks",
+      "sha256": "def3a8f1b3ef8d6095a30f216745ccfb05e287813c3a4b65afe370d690f4e2c5"
+    },
+    {
+      "bytes": 3855,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panels_cd_shared_manifest.json",
+      "role": "panels_cd_shared_manifest",
+      "sha256": "bf3469833a6dcb528f835a3539415b9ee9e48e2fffab4f33c6a4130e7836a73d"
+    },
+    {
+      "bytes": 5786,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_data.csv",
+      "role": "panel_c_data",
+      "sha256": "4fadd13654976a03a3725c08fec887839a78f72345879a9f73b8ebc626a2df01"
+    },
+    {
+      "bytes": 6347,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_data.csv",
+      "role": "panel_d_data",
+      "sha256": "adfb16a1af2f451784debb2c42aebf03c92a5c229202e665309c03f134cc4f81"
+    }
+  ],
+  "outputs": {
+    "figure2_initial_v1.pdf": {
+      "bytes": 147354,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/initial_v1/figure2_abcd/figure2_initial_v1.pdf",
+      "sha256": "cd82e36738d2838df973116972b4f393086d556aafb0718d8ccc64a6e89de749"
+    },
+    "figure2_initial_v1.png": {
+      "bytes": 554959,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/initial_v1/figure2_abcd/figure2_initial_v1.png",
+      "sha256": "5ecb8462f18ab4176441b39b738d14c0a334bc88c4e252372bf70f66bad3c56a"
+    },
+    "figure2_initial_v1_caption.md": {
+      "bytes": 1216,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/initial_v1/figure2_abcd/figure2_initial_v1_caption.md",
+      "sha256": "5c65d1b2f4191afff1ac982583cd4847bd6838fb05f62d1bd409ffb190766d82"
+    },
+    "figure2_initial_v1_checks.json": {
+      "bytes": 2854,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/initial_v1/figure2_abcd/figure2_initial_v1_checks.json",
+      "sha256": "2aafea8172bab622af1fd30a2e3868dd8ef973fbfb6e8ad8eb7ce3f2034ddc8a"
+    },
+    "figure2_initial_v1_note.md": {
+      "bytes": 1285,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/initial_v1/figure2_abcd/figure2_initial_v1_note.md",
+      "sha256": "c73cd4ca76b04eeba32e2c226bd9dc55819325a46c277187cb188cb7d9c01f20"
+    }
+  },
+  "pypdf_version": "5.9.0",
+  "schema_version": "figure2-abcd-vector-manifest-v1",
+  "script_path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_abcd_vector.py",
+  "script_sha256": "a05320d11ada2bf0851464b5f8b24170597de2b001644f6689f1494f2eeb7320",
+  "script_version": "0.3.0",
+  "status": "REPRODUCED"
+}

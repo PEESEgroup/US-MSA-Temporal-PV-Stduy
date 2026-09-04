@@ -1,0 +1,33 @@
+panel,city_id,city_name,display_order,metric,value,unit,numerator,denominator,status
+d,washington_dc,Washington DC,1,observed_new_building,5.249773911389111,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,washington_dc,Washington DC,1,parity_to_existing,116.33826198276931,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,los_angeles,Los Angeles,2,observed_new_building,3.222055128673896,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,los_angeles,Los Angeles,2,parity_to_existing,32.20882832681878,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,phoenix,Phoenix,3,observed_new_building,1.578665807093897,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,phoenix,Phoenix,3,parity_to_existing,23.41726885529559,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,denver,Denver,4,observed_new_building,1.5019022764976624,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,denver,Denver,4,parity_to_existing,17.68930411036887,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,boston,Boston,5,observed_new_building,1.121753833531588,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,boston,Boston,5,parity_to_existing,29.683341408785875,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,dallas,Dallas,6,observed_new_building,0.8698386802987184,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,dallas,Dallas,6,parity_to_existing,5.649367324826143,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,new_york_city,New York City,7,observed_new_building,0.8399726557733762,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,new_york_city,New York City,7,parity_to_existing,42.45762179290244,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,miami,Miami,8,observed_new_building,0.676156745900678,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,miami,Miami,8,parity_to_existing,21.995196126658687,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,minneapolis,Minneapolis,9,observed_new_building,0.5572876268745267,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,minneapolis,Minneapolis,9,parity_to_existing,9.247987809024217,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,atlanta,Atlanta,10,observed_new_building,0.4368800038698143,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,atlanta,Atlanta,10,parity_to_existing,3.651984571633154,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,philadelphia,Philadelphia,11,observed_new_building,0.22672580669622514,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,philadelphia,Philadelphia,11,parity_to_existing,8.560497459760708,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,seattle,Seattle,12,observed_new_building,0.21671036989266484,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,seattle,Seattle,12,parity_to_existing,2.3766912959570905,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,detroit,Detroit,13,observed_new_building,0.19061472577246183,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,detroit,Detroit,13,parity_to_existing,1.265589019866054,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,chicago,Chicago,14,observed_new_building,0.18600794805129564,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,chicago,Chicago,14,parity_to_existing,8.213700988208455,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,charlotte,Charlotte,15,observed_new_building,0.12768052783401582,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,charlotte,Charlotte,15,parity_to_existing,1.6454330170695777,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED
+d,all_cities_pooled,All cities,16,observed_new_building,1.1799676249300668,m2 per newly observed building,PV area attributed to the new-building first-appearance route,newly observed buildings,REPRODUCED
+d,all_cities_pooled,All cities,16,parity_to_existing,17.96676685566159,m2 per newly observed building,PV area attributed to the existing-building first-appearance route,newly observed buildings,REPRODUCED

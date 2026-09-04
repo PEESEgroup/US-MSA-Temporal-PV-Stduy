@@ -1,0 +1,92 @@
+{
+  "analysis_scope": "descriptive",
+  "canvas_inches": [
+    4.96,
+    4.35
+  ],
+  "figure": "Figure 2c three-factor contribution heatmap draft",
+  "font_family": "Arial",
+  "generated_at_utc": "2026-09-03T19:55:35.798083+00:00",
+  "inputs": [
+    {
+      "bytes": 33800,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/city_area_weighted_stock_flow.csv",
+      "role": "primary_full_aoi_area_stock_flow",
+      "row_count": 32,
+      "sha256": "4f74fc928f74f1503b0495475db86d647112f9ee2668d0541c094baca4e11c8b"
+    },
+    {
+      "bytes": 45392,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/area_weighted_results_manifest.json",
+      "role": "owning_area_results_manifest",
+      "sha256": "e195ed04ce85d5d9b79474971ba97593a516b7c9266333456917314e1928af6b"
+    },
+    {
+      "bytes": 10251,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/initial_v1/figure1_abcd/panel_a_checks.json",
+      "role": "frozen_figure1_city_order_checks",
+      "sha256": "4fab338468ffe036cb5b3dbd958b6dcc81404c05f64e7bee123135c39aae735d"
+    },
+    {
+      "bytes": 4771,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/initial_v1/figure1_abcd/freeze_manifest.json",
+      "role": "figure1_freeze_manifest",
+      "sha256": "de3cc7beaba2e0824d474e2afbc0d6dc0a7d6c2f13637ea538eeedf286b971bd"
+    },
+    {
+      "bytes": 35863,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_draft.py",
+      "role": "shared_style_and_helpers",
+      "sha256": "630fd035b1d8b69532bb3e3ac9e331eea5f0082c312b806992158037f9132cc7"
+    },
+    {
+      "bytes": 902,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/style/temporal_pv.mplstyle",
+      "role": "shared_matplotlib_style",
+      "sha256": "c51dca319539f3d65cfe71238c9e77f2bb77be5ac3b8eea23726e96690c7bfd3"
+    },
+    {
+      "bytes": 367112,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/initial_v1/figure1_abcd/code/arial.ttf",
+      "role": "font",
+      "sha256": "413c78f91bd39e134f3c0bb204b1d5a90f29df9efddc8fd26950a178058d5d74"
+    }
+  ],
+  "outputs": {
+    "figure2_panel_c_caption.md": {
+      "bytes": 753,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_caption.md",
+      "sha256": "d57d31a917f12746c669e7a08b174c86807c87528bc37f7607bcef2e1d4779a5"
+    },
+    "figure2_panel_c_checks.json": {
+      "bytes": 2605,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_checks.json",
+      "sha256": "13f5fdb2be845285e7ce89c3d226bd466992f940d4928f5e2dbae5671355488a"
+    },
+    "figure2_panel_c_data.csv": {
+      "bytes": 5786,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_data.csv",
+      "sha256": "4fadd13654976a03a3725c08fec887839a78f72345879a9f73b8ebc626a2df01"
+    },
+    "figure2_panel_c_draft.pdf": {
+      "bytes": 36308,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_draft.pdf",
+      "sha256": "29471c91b0b3054925b8989d17741fc1093672cbf4d106645f03848ee2a018db"
+    },
+    "figure2_panel_c_draft.png": {
+      "bytes": 220487,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_draft.png",
+      "sha256": "18faa96e50765485a515be9af6273f28e429ff59e63cc2645f75b14bff9c1790"
+    },
+    "figure2_panel_c_note.md": {
+      "bytes": 814,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_note.md",
+      "sha256": "af0fb0a5b2479c658cb3e6220bd664c00d92a8d33e96d90ada2f0fd89fcadb83"
+    }
+  },
+  "schema_version": "figure2-panel-c-manifest-v1",
+  "script_path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_draft.py",
+  "script_sha256": "9b4944ad2bfb440de98c03584b0ddbb204e99e05bbf2ce11ecb03554c0bdfa3f",
+  "script_version": "0.2.0",
+  "status": "REPRODUCED"
+}

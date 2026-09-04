@@ -1,0 +1,9 @@
+# Figure 4 transition-dynamics note
+
+Figure 4 compares new- and existing-Building rooftop-PV pathways within each city's original adjacent cohort grid. Panel a's primary estimand is the ratio `(A_new / B_roof_new) / (A_retrofit / B_roof_stock)`, where the existing denominator is plan-view roof area summed over eligible existing-Building observations at the start of each transition. Panel b shows whether the PV-addition rate ratio, PV area per Building ratio, and PV area per roof area ratio lie on the same side of one. Panel c separates PV-addition frequency from average PV area per classified addition for three cities selected by the deterministic rule frozen in `transition_information_gate_v1.json`. Panel d summarizes switching in the roof-area ratio as the primary result and switching in PV area per Building as a lighter comparator.
+
+The information gate was frozen before the first rendering. A transition is displayed only when both pathways contain at least 10 classified PV additions, both plan-view roof-area denominators and both attributed anchor PV-area totals are positive, and all three ratios are finite and positive. Ineligible observed cells are hatched; structurally absent cells are blank. The main gate retains 55 of 67 full-AOI transitions and masks 12. Thresholds of 5 and 20 additions per pathway are reserved for sensitivity analysis and were not used to tune the main figure.
+
+PV union area is the anchor-year area on each unique host attributed to its first strict adjacent PV event; later within-host expansion is not time-resolved. Cohort labels are opaque ordered observations, transition durations may differ, and the figure does not show annual volatility, exact cohort capacity additions, usable-roof utilization, measured nameplate capacity, policy response, or causal effects. No continuous-outcome inferential intervals are available or displayed.
+
+Status: `REPRODUCED` (descriptive candidate rendering).

@@ -1,0 +1,23 @@
+{
+  "all_relationship_hashes_verified": true,
+  "annual_lag_bins_use_all_resolved_pv_area_denominator": true,
+  "building_left_censored_onsets_excluded_from_lag_estimation": true,
+  "city_count": 15,
+  "city_order_matches_frozen_panel_a": true,
+  "composition_bar_excludes_pv_before_building_conflict": true,
+  "composition_bars_sum_to_100_percent": true,
+  "lag_is_not_an_exact_installation_minus_construction_date": true,
+  "left_censored_building_records_excluded_from_lag_curves": true,
+  "left_censored_resolved_pv_area_m2": 22227412.025377583,
+  "left_censored_resolved_pv_area_share": 0.8605775730518366,
+  "left_censored_resolved_target_count": 358705,
+  "negative_lag_conflict_excluded_from_annual_curve": true,
+  "negative_lag_domain_hidden": true,
+  "pv_left_censored_onsets_assigned_to_baseline_bound": true,
+  "resolved_pv_area_m2": 25828481.616774276,
+  "resolved_target_count": 397181,
+  "status": "REPRODUCED",
+  "unavailable_pv_area_m2": 2667284.949703725,
+  "unavailable_target_count": 42947,
+  "uniform_interval_expectation_used": true
+}

@@ -1,0 +1,136 @@
+{
+  "city_order_rule": "descending full-AOI PV first-appearance ratio; pooled row last",
+  "filters_and_exclusions": [
+    "full-AOI raw-known building table only",
+    "first PV appearance must be interval-censored to adjacent native cohorts",
+    "new route requires strict building first appearance at the same transition",
+    "existing route requires the building to be present on both sides of the transition",
+    "unknown states are not bridged",
+    "strict PV hosts outside both displayed routes are excluded"
+  ],
+  "generated_at_utc": "2026-09-03T15:50:57.876122+00:00",
+  "generator": {
+    "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/figure3_panel_b_boxen.py",
+    "sha256": "1025fda73d759f28fccd1ea410f31181f1562329d0baef225979df76197dd64e",
+    "version": "0.3.0"
+  },
+  "inputs": [
+    {
+      "bytes": 77868561,
+      "path": "/home/ec2-user/rpv-work/analytics/data_host_level/city_host_pv_area_distribution.csv",
+      "role": "one-row-per-host PV areas",
+      "row_count": 359527,
+      "sha256": "e2182856ac8fb25739c68f408f0bb9892487112b4e55b321f7074cf3053bea87"
+    },
+    {
+      "bytes": 14809,
+      "path": "/home/ec2-user/rpv-work/analytics/data_host_level/host_pv_area_distribution_checks.json",
+      "role": "host-level source QA",
+      "sha256": "cb01e034b93e8318d2bb70aca7d3c96542f2eede7fac1bee55dfd98f88f07dcd"
+    },
+    {
+      "bytes": 36175,
+      "path": "/home/ec2-user/rpv-work/analytics/data_host_level/host_pv_area_distribution_manifest.json",
+      "role": "host-level source manifest",
+      "sha256": "a11f160a96961cb89a191c008fa9253d6fe61e60eec8c586b9de64bed097a305"
+    },
+    {
+      "bytes": 19143,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/city_area_weighted_event_size_distribution.csv",
+      "role": "released summary reconciliation",
+      "row_count": 32,
+      "sha256": "b4b132183ef98ac832ee41e0329d32df0501bc0123e0735e633e4c324ec79bee"
+    },
+    {
+      "bytes": 15996,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/city_pv_area_onset_pathway_composition.csv",
+      "role": "pooled pathway means",
+      "row_count": 64,
+      "sha256": "df4f75b00bf1850cc043c35b6f2cce5418cc14e3044783fbd5d17292d71280ec"
+    },
+    {
+      "bytes": 1276,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/pv_area_capacity_density_scenarios.csv",
+      "role": "nominal capacity translation",
+      "row_count": 3,
+      "sha256": "fadb73848f5ff92c5c1c2bd1c9763f151868de63e63acb2f4d62cee237485097"
+    },
+    {
+      "bytes": 45392,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/area_weighted_results_manifest.json",
+      "role": "area-weighted source manifest",
+      "sha256": "e195ed04ce85d5d9b79474971ba97593a516b7c9266333456917314e1928af6b"
+    },
+    {
+      "bytes": 1650,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_a_appearance_sorted_v2/figure3_panel_a_checks.json",
+      "role": "Panel a height and city order",
+      "sha256": "638cc448f5bb3abc9986179c6f76d04bc0bc6b0b43338552458141bf650a5f1b"
+    },
+    {
+      "bytes": 3719,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_a_appearance_sorted_v2/figure3_panel_a_manifest.json",
+      "role": "Panel a output manifest",
+      "sha256": "683cc7d2f1c8f03712d0ce792ddf9e12cbc3b03d4eb6dc4a556505142fba2040"
+    },
+    {
+      "bytes": 35188,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/figure3_draft.py",
+      "role": "shared Figure 3 helpers",
+      "sha256": "6540c2a7cadf79795c91147d25ddc1b183c0ea79091bb6e69076dd31befb0322"
+    },
+    {
+      "bytes": 902,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/style/temporal_pv.mplstyle",
+      "role": "shared plotting style",
+      "sha256": "c51dca319539f3d65cfe71238c9e77f2bb77be5ac3b8eea23726e96690c7bfd3"
+    },
+    {
+      "bytes": 367112,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/initial_v1/figure1_abcd/code/arial.ttf",
+      "role": "embedded plotting font",
+      "sha256": "413c78f91bd39e134f3c0bb204b1d5a90f29df9efddc8fd26950a178058d5d74"
+    }
+  ],
+  "outputs": {
+    "figure3_panel_b_boxen_v3.pdf": {
+      "bytes": 35478,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_b_boxen_v3/figure3_panel_b_boxen_v3.pdf",
+      "sha256": "f5a2fc1e970c80451fccae1e350851dedee68e3f450e2229c1b20ea397cac096"
+    },
+    "figure3_panel_b_boxen_v3.png": {
+      "bytes": 169199,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_b_boxen_v3/figure3_panel_b_boxen_v3.png",
+      "sha256": "b940a93687226fd09c6bb19772f46712e450e0bf85b1bd524fbdf22767708318"
+    },
+    "figure3_panel_b_caption.md": {
+      "bytes": 781,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_b_boxen_v3/figure3_panel_b_caption.md",
+      "sha256": "0007c8aabab561ac5d88e9c38c0ce02dbaff32b59c2981ca8f5be29b572c92c7"
+    },
+    "figure3_panel_b_checks.json": {
+      "bytes": 1466,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_b_boxen_v3/figure3_panel_b_checks.json",
+      "sha256": "7df7e9c7153669e9f4a5cfd4dc8060a80154383ab4fd4e94a2e635dfcac327f8"
+    },
+    "figure3_panel_b_data.csv": {
+      "bytes": 8210,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_b_boxen_v3/figure3_panel_b_data.csv",
+      "sha256": "45f7ab497c0a3967b2cc37604a8b05f204c80220de81bbf0fa3f2513616f991a"
+    },
+    "figure3_panel_b_note.md": {
+      "bytes": 885,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_b_boxen_v3/figure3_panel_b_note.md",
+      "sha256": "9fdd6df8f078e8c3d60ee04be1026ef8fcfc023db6e861c5cc3e05106e2a6459"
+    }
+  },
+  "primary_key": [
+    "track",
+    "city_id",
+    "group_id",
+    "grid_index"
+  ],
+  "schema_version": "figure3-panel-b-boxen-manifest-v3",
+  "scope": "full_aoi",
+  "status": "REPRODUCED"
+}

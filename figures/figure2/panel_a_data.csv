@@ -1,0 +1,33 @@
+panel,city_id,display_order,city_abbreviation,route,mean_pv_area_per_first_event_host_m2,pv_area_yield_m2_per_eligible_observation,x_denominator,y_denominator,is_pooled,status
+a,detroit,1,DET,new_building,79.6117450719669,0.19061472577246183,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,detroit,1,DET,existing_building,36.06133453194639,0.03491234542586404,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,dallas,2,DAL,new_building,176.2316997481924,0.8698386802987184,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,dallas,2,DAL,existing_building,43.48154805067581,0.1881056967291688,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,los_angeles,3,LA,new_building,191.8490340487217,3.222055128673896,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,los_angeles,3,LA,existing_building,60.174339419299145,0.7973164609721979,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,denver,4,DEN,new_building,72.90401375246978,1.5019022764976624,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,denver,4,DEN,existing_building,35.4030430066583,0.3827101417706047,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,washington_dc,5,DC,new_building,345.09411241447566,5.249773911389111,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,washington_dc,5,DC,existing_building,111.13620331753556,2.6610048919531977,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,minneapolis,6,MSP,new_building,106.89156652289927,0.5572876268745267,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,minneapolis,6,MSP,existing_building,91.57922336668803,0.2899839887431875,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,seattle,7,SEA,new_building,92.60475942190048,0.21671036989266484,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,seattle,7,SEA,existing_building,38.94552892786872,0.12038512432389663,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,boston,8,BOS,new_building,321.1987377651008,1.121753833531588,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,boston,8,BOS,existing_building,56.168870557330536,0.6703615134981223,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,miami,9,MIA,new_building,61.6944835723758,0.676156745900678,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,miami,9,MIA,existing_building,40.57079542568464,0.4375330299517393,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,atlanta,10,ATL,new_building,119.20582962733505,0.4368800038698143,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,atlanta,10,ATL,existing_building,81.6257402659708,0.3587542003703702,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,philadelphia,11,PHL,new_building,60.41184694689817,0.22672580669622514,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,philadelphia,11,PHL,existing_building,49.90460362772987,0.19057022049466743,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,new_york_city,12,NYC,new_building,146.06008895215564,0.8399726557733762,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,new_york_city,12,NYC,existing_building,61.48944380099072,0.767710454752857,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,phoenix,13,PHX,new_building,103.09493276227546,1.578665807093897,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,phoenix,13,PHX,existing_building,55.746197695682746,1.4647899204408361,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,charlotte,14,CLT,new_building,36.446276383966925,0.12768052783401582,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,charlotte,14,CLT,existing_building,36.70601532655851,0.15555498817016453,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,chicago,15,CHI,new_building,64.91111439886613,0.18600794805129564,strict unique-host new-route PV event,newly observed Building,False,REPRODUCED
+a,chicago,15,CHI,existing_building,51.7070344840045,0.23106922673626465,strict unique-host existing-route PV event,eligible existing-Building cohort observation,False,REPRODUCED
+a,all_cities_pooled,16,POOLED,new_building,128.8253353271322,1.1799676249300668,strict unique-host new-route PV event,newly observed Building,True,REPRODUCED
+a,all_cities_pooled,16,POOLED,existing_building,54.58600993659217,0.5385949425701212,strict unique-host existing-route PV event,eligible existing-Building cohort observation,True,REPRODUCED

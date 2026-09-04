@@ -1,0 +1,54 @@
+{
+  "analysis_scope": "descriptive",
+  "area_route_shares_sum_to_one": true,
+  "canvas_inches": [
+    3.3066666666666666,
+    3.76
+  ],
+  "canvas_labels_match_frozen_panel_a_language": true,
+  "canvas_uses_appearance_instead_of_event": true,
+  "canvas_uses_building_instead_of_host": true,
+  "classified_anchor_pv_area_m2": 20347789.98782469,
+  "comparison_connector_orientation": "vertical",
+  "comparison_note_removed_from_bottom": true,
+  "count_route_shares_sum_to_one": true,
+  "difference_label_adjacent_to_connector_gap": true,
+  "difference_label_is_on_vertical_connector_gap": true,
+  "difference_symbols_clear_of_connector": true,
+  "distinct_from_figure1c_onset_censoring_composition": true,
+  "figure1c_estimand": "resolved non-conflict anchor PV area by Building-onset censoring class",
+  "figure2b_estimand": "strict first-event route share under host-count versus attributed-area weighting",
+  "generated_at_utc": "2026-09-03T03:56:00.818946+00:00",
+  "left_censored_and_unavailable_hosts_excluded": true,
+  "new_anchor_area_share": 0.06162761729036127,
+  "new_host_count_share": 0.027074461723319808,
+  "new_route_labels_use_leader_lines": true,
+  "new_share_area_to_count_fold_change": 2.2762268709216884,
+  "new_share_shift_percentage_points": 3.4553155567041465,
+  "new_wedge_target_angles_degrees": [
+    -90.0,
+    90.0
+  ],
+  "new_wedge_target_positions": [
+    "bottom",
+    "top"
+  ],
+  "panel_label_is_inside_canvas": true,
+  "pie_arrangement": "vertical_count_above_area",
+  "pie_chart_count": 2,
+  "pie_startangles_degrees": [
+    -94.87340311019757,
+    78.90702888773497
+  ],
+  "plot_type": "two donut-style pie charts",
+  "pooled_full_aoi_row_count": 1,
+  "route_colors_match_frozen_panel_a": true,
+  "same_strict_classified_host_set_under_both_weightings": true,
+  "schema_version": "figure2-panel-b-checks-v1",
+  "source_hash_verified": true,
+  "status": "REPRODUCED",
+  "strict_first_event_host_total": 359527,
+  "titles_position": "left of pies",
+  "vertical_connector_gap_figure_fraction": 0.11,
+  "vertical_connector_segment_count": 2
+}

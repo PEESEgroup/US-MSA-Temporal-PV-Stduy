@@ -1,0 +1,251 @@
+{
+  "all_conflicts_excluded_from_substantive_pv_lines": true,
+  "all_later_host_pv_zero_at_curve_start": true,
+  "all_pv_component_reconciliations_pass": true,
+  "area_group_definition": "tertiles of panel-c left-censored area share; ascending display order only",
+  "area_groups": {
+    "high": {
+      "cities": [
+        "boston",
+        "washington_dc",
+        "miami",
+        "philadelphia",
+        "chicago"
+      ]
+    },
+    "low": {
+      "cities": [
+        "dallas",
+        "detroit",
+        "phoenix",
+        "charlotte",
+        "atlanta"
+      ]
+    },
+    "middle": {
+      "cities": [
+        "new_york_city",
+        "los_angeles",
+        "seattle",
+        "denver",
+        "minneapolis"
+      ]
+    }
+  },
+  "building_and_pv_axis_unit": "million square metres",
+  "city_checks": {
+    "atlanta": {
+      "curve_end_year": 2026,
+      "curve_start_year": 2016,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.21571151568936303,
+      "pv_before_building_conflict_excluded_area_m2": 4522.353078745029,
+      "pv_before_building_conflict_excluded_count": 7,
+      "resolved_linked_pv_area_m2": 133386.43051032643,
+      "right_endpoint_utilization_percent": 0.7069158058837601,
+      "substantive_nonconflict_pv_area_m2": 128864.0774315814,
+      "unavailable_building_onset_pv_area_m2": 7690.246108483346
+    },
+    "boston": {
+      "curve_end_year": 2025,
+      "curve_start_year": 2012,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.2611843409822053,
+      "pv_before_building_conflict_excluded_area_m2": 4182.296047740742,
+      "pv_before_building_conflict_excluded_count": 11,
+      "resolved_linked_pv_area_m2": 1363147.9877888006,
+      "right_endpoint_utilization_percent": 1.1591319896486232,
+      "substantive_nonconflict_pv_area_m2": 1358965.6917410593,
+      "unavailable_building_onset_pv_area_m2": 37662.07303776721
+    },
+    "charlotte": {
+      "curve_end_year": 2026,
+      "curve_start_year": 2013,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.054336726126487454,
+      "pv_before_building_conflict_excluded_area_m2": 0.0,
+      "pv_before_building_conflict_excluded_count": 0,
+      "resolved_linked_pv_area_m2": 29552.377202928135,
+      "right_endpoint_utilization_percent": 0.29645635722202396,
+      "substantive_nonconflict_pv_area_m2": 29552.377202928135,
+      "unavailable_building_onset_pv_area_m2": 2842.8462783376494
+    },
+    "chicago": {
+      "curve_end_year": 2025,
+      "curve_start_year": 2010,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.12206641328784387,
+      "pv_before_building_conflict_excluded_area_m2": 16975.34513735548,
+      "pv_before_building_conflict_excluded_count": 82,
+      "resolved_linked_pv_area_m2": 1927987.4939694968,
+      "right_endpoint_utilization_percent": 0.5306137372014114,
+      "substantive_nonconflict_pv_area_m2": 1911012.14883214,
+      "unavailable_building_onset_pv_area_m2": 93908.27841360722
+    },
+    "dallas": {
+      "curve_end_year": 2025,
+      "curve_start_year": 2010,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.0839966321931898,
+      "pv_before_building_conflict_excluded_area_m2": 8690.489491767137,
+      "pv_before_building_conflict_excluded_count": 31,
+      "resolved_linked_pv_area_m2": 660488.2516160415,
+      "right_endpoint_utilization_percent": 0.4253636572668761,
+      "substantive_nonconflict_pv_area_m2": 651797.762124275,
+      "unavailable_building_onset_pv_area_m2": 64944.3424262948
+    },
+    "denver": {
+      "curve_end_year": 2026,
+      "curve_start_year": 2012,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.13297715288582673,
+      "pv_before_building_conflict_excluded_area_m2": 9688.975590981214,
+      "pv_before_building_conflict_excluded_count": 21,
+      "resolved_linked_pv_area_m2": 1204647.5238654355,
+      "right_endpoint_utilization_percent": 0.6105373298797792,
+      "substantive_nonconflict_pv_area_m2": 1194958.5482744554,
+      "unavailable_building_onset_pv_area_m2": 58860.86445180723
+    },
+    "detroit": {
+      "curve_end_year": 2026,
+      "curve_start_year": 2014,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.0348471594133857,
+      "pv_before_building_conflict_excluded_area_m2": 443.1581935362196,
+      "pv_before_building_conflict_excluded_count": 6,
+      "resolved_linked_pv_area_m2": 113869.40419730458,
+      "right_endpoint_utilization_percent": 0.29279813491057705,
+      "substantive_nonconflict_pv_area_m2": 113426.24600376839,
+      "unavailable_building_onset_pv_area_m2": 6432.46898920281
+    },
+    "los_angeles": {
+      "curve_end_year": 2026,
+      "curve_start_year": 2015,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.2051501496951671,
+      "pv_before_building_conflict_excluded_area_m2": 158988.1709713084,
+      "pv_before_building_conflict_excluded_count": 490,
+      "resolved_linked_pv_area_m2": 8697260.511683274,
+      "right_endpoint_utilization_percent": 0.9564867529720744,
+      "substantive_nonconflict_pv_area_m2": 8538272.34071195,
+      "unavailable_building_onset_pv_area_m2": 928180.8214945204
+    },
+    "miami": {
+      "curve_end_year": 2026,
+      "curve_start_year": 2012,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.09292602481527042,
+      "pv_before_building_conflict_excluded_area_m2": 5200.675414902569,
+      "pv_before_building_conflict_excluded_count": 52,
+      "resolved_linked_pv_area_m2": 2357733.8822133658,
+      "right_endpoint_utilization_percent": 0.5872484709787682,
+      "substantive_nonconflict_pv_area_m2": 2352533.20679846,
+      "unavailable_building_onset_pv_area_m2": 92011.08254996645
+    },
+    "minneapolis": {
+      "curve_end_year": 2026,
+      "curve_start_year": 2014,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.08699137412854924,
+      "pv_before_building_conflict_excluded_area_m2": 1380.6598455575522,
+      "pv_before_building_conflict_excluded_count": 13,
+      "resolved_linked_pv_area_m2": 424564.6321217303,
+      "right_endpoint_utilization_percent": 0.7008763645899783,
+      "substantive_nonconflict_pv_area_m2": 423183.9722761728,
+      "unavailable_building_onset_pv_area_m2": 20144.1413924333
+    },
+    "new_york_city": {
+      "curve_end_year": 2024,
+      "curve_start_year": 2010,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.1390584285206011,
+      "pv_before_building_conflict_excluded_area_m2": 14163.251603097942,
+      "pv_before_building_conflict_excluded_count": 78,
+      "resolved_linked_pv_area_m2": 2433087.050952865,
+      "right_endpoint_utilization_percent": 0.9956893507490936,
+      "substantive_nonconflict_pv_area_m2": 2418923.7993497644,
+      "unavailable_building_onset_pv_area_m2": 383402.2812360066
+    },
+    "philadelphia": {
+      "curve_end_year": 2026,
+      "curve_start_year": 2011,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.09398982826275099,
+      "pv_before_building_conflict_excluded_area_m2": 512.0745260238041,
+      "pv_before_building_conflict_excluded_count": 14,
+      "resolved_linked_pv_area_m2": 251679.54361910178,
+      "right_endpoint_utilization_percent": 0.3319819950258691,
+      "substantive_nonconflict_pv_area_m2": 251167.46909307802,
+      "unavailable_building_onset_pv_area_m2": 106310.57439458127
+    },
+    "phoenix": {
+      "curve_end_year": 2026,
+      "curve_start_year": 2012,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.02602431354808325,
+      "pv_before_building_conflict_excluded_area_m2": 28900.864601218887,
+      "pv_before_building_conflict_excluded_count": 96,
+      "resolved_linked_pv_area_m2": 4741322.498708659,
+      "right_endpoint_utilization_percent": 1.5960129973910686,
+      "substantive_nonconflict_pv_area_m2": 4712421.634107422,
+      "unavailable_building_onset_pv_area_m2": 377160.43871723994
+    },
+    "seattle": {
+      "curve_end_year": 2026,
+      "curve_start_year": 2016,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.053575199066648205,
+      "pv_before_building_conflict_excluded_area_m2": 316.7510197681821,
+      "pv_before_building_conflict_excluded_count": 7,
+      "resolved_linked_pv_area_m2": 295753.19367070234,
+      "right_endpoint_utilization_percent": 0.2990307124963225,
+      "substantive_nonconflict_pv_area_m2": 295436.4426509342,
+      "unavailable_building_onset_pv_area_m2": 8018.927874049839
+    },
+    "washington_dc": {
+      "curve_end_year": 2026,
+      "curve_start_year": 2014,
+      "later_host_pv_zero_at_curve_start": true,
+      "left_endpoint_utilization_percent": 0.5348404514076858,
+      "pv_before_building_conflict_excluded_area_m2": 5119.460903275697,
+      "pv_before_building_conflict_excluded_count": 31,
+      "resolved_linked_pv_area_m2": 1194000.8346542243,
+      "right_endpoint_utilization_percent": 2.664956814287113,
+      "substantive_nonconflict_pv_area_m2": 1188881.373750949,
+      "unavailable_building_onset_pv_area_m2": 479715.5623394283
+    }
+  },
+  "city_count": 15,
+  "city_order": [
+    "dallas",
+    "detroit",
+    "phoenix",
+    "charlotte",
+    "atlanta",
+    "new_york_city",
+    "los_angeles",
+    "seattle",
+    "denver",
+    "minneapolis",
+    "boston",
+    "washington_dc",
+    "miami",
+    "philadelphia",
+    "chicago"
+  ],
+  "city_order_direction": "ascending",
+  "city_order_metric": "composition_left_censored_percent",
+  "city_order_source": "figure1_panel_c_lag_data.csv",
+  "city_specific_left_y_limits": true,
+  "city_specific_right_y_limits": true,
+  "figure_contains_footnote": false,
+  "figure_contains_subtitle": false,
+  "figure_contains_title": false,
+  "grid_columns": 5,
+  "grid_rows": 3,
+  "right_axis_zero_aligned_to_each_city_building_baseline": true,
+  "schema_version": "figure-panel-checks-v1",
+  "status": "REPRODUCED",
+  "x_grid_visible": false,
+  "y_grid_visible": true
+}

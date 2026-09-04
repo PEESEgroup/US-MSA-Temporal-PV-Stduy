@@ -1,0 +1,80 @@
+{
+  "analysis_scope": "descriptive",
+  "canvas_inches": [
+    3.3066666666666666,
+    3.76
+  ],
+  "figure": "Figure 2b paired count-to-area composition pies draft",
+  "font_family": "Arial",
+  "generated_at_utc": "2026-09-03T03:56:00.819466+00:00",
+  "inputs": [
+    {
+      "bytes": 33800,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/city_area_weighted_stock_flow.csv",
+      "role": "primary_full_aoi_area_stock_flow",
+      "row_count": 32,
+      "sha256": "4f74fc928f74f1503b0495475db86d647112f9ee2668d0541c094baca4e11c8b"
+    },
+    {
+      "bytes": 45392,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/area_weighted_results_manifest.json",
+      "role": "owning_area_results_manifest",
+      "sha256": "e195ed04ce85d5d9b79474971ba97593a516b7c9266333456917314e1928af6b"
+    },
+    {
+      "bytes": 35863,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_draft.py",
+      "role": "shared_style_and_helpers",
+      "sha256": "630fd035b1d8b69532bb3e3ac9e331eea5f0082c312b806992158037f9132cc7"
+    },
+    {
+      "bytes": 902,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/style/temporal_pv.mplstyle",
+      "role": "shared_matplotlib_style",
+      "sha256": "c51dca319539f3d65cfe71238c9e77f2bb77be5ac3b8eea23726e96690c7bfd3"
+    },
+    {
+      "bytes": 367112,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/initial_v1/figure1_abcd/code/arial.ttf",
+      "role": "font",
+      "sha256": "413c78f91bd39e134f3c0bb204b1d5a90f29df9efddc8fd26950a178058d5d74"
+    }
+  ],
+  "outputs": {
+    "figure2_panel_b_caption.md": {
+      "bytes": 618,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_caption.md",
+      "sha256": "2438307aa143a872f551ca75818e5cd471bd39bbd3eda3fe4f0ce3cb0b4256cb"
+    },
+    "figure2_panel_b_checks.json": {
+      "bytes": 2073,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_checks.json",
+      "sha256": "1ab4b416ec0cd8e7c470c4b44265d5e135bbfd6d4b0a2dcc8cd193f124e17dd1"
+    },
+    "figure2_panel_b_data.csv": {
+      "bytes": 713,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_data.csv",
+      "sha256": "67b924cad36b6f80250d0d828f96ba1beaaae519457bccb7ecf8875baac5f339"
+    },
+    "figure2_panel_b_draft.pdf": {
+      "bytes": 24701,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_draft.pdf",
+      "sha256": "72ff9ecd3a25746e0490d0362d6ab9aa14b0844db20c3c7e80bf8f3fe81bfe7e"
+    },
+    "figure2_panel_b_draft.png": {
+      "bytes": 103954,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_draft.png",
+      "sha256": "fad89b1aab8d250db9254fd2356566fc6987b6ba6a9d60c538d248acae4540de"
+    },
+    "figure2_panel_b_note.md": {
+      "bytes": 1287,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_note.md",
+      "sha256": "d369f5aea1d16fd5303e86880060439e6f2470f3ed5adf4feabf618eb1c688e9"
+    }
+  },
+  "schema_version": "figure2-panel-b-manifest-v1",
+  "script_path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_draft.py",
+  "script_sha256": "cd0f93dbf747a1b96818f5524e189d2b2109016a18c16b9c113b573566b6728b",
+  "script_version": "0.3.2",
+  "status": "REPRODUCED"
+}

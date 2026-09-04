@@ -1,0 +1,362 @@
+{
+  "city_order": [
+    "detroit",
+    "denver",
+    "minneapolis",
+    "los_angeles",
+    "dallas",
+    "miami",
+    "philadelphia",
+    "atlanta",
+    "charlotte",
+    "seattle",
+    "chicago",
+    "washington_dc",
+    "phoenix",
+    "new_york_city",
+    "boston"
+  ],
+  "city_order_source": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/abc_shared_y_v1/figure3_abc_checks.json",
+  "cohort_order_by_city": {
+    "atlanta": [
+      "2010_2016",
+      "2017_2018",
+      "2019_2021",
+      "2022_2024",
+      "2025_now"
+    ],
+    "boston": [
+      "2011_2012",
+      "2013_2014",
+      "2019",
+      "2021",
+      "2023",
+      "2025"
+    ],
+    "charlotte": [
+      "2010_2013",
+      "2014_2017",
+      "2018_2021",
+      "2022_now"
+    ],
+    "chicago": [
+      "2010",
+      "2014",
+      "2018",
+      "2021",
+      "2023",
+      "2025"
+    ],
+    "dallas": [
+      "2010",
+      "2015",
+      "2018",
+      "2020",
+      "2022",
+      "2025"
+    ],
+    "denver": [
+      "2010_2012",
+      "2013_2016",
+      "2017_2020",
+      "2021_2024",
+      "2025_now"
+    ],
+    "detroit": [
+      "2010_2014",
+      "2015_2018",
+      "2019_2021",
+      "2022_2024",
+      "2025_now"
+    ],
+    "los_angeles": [
+      "2010_2015",
+      "2016_2018",
+      "2019_2021",
+      "2022_2024",
+      "2025_now"
+    ],
+    "miami": [
+      "2010_2012",
+      "2013_2015",
+      "2016_2018",
+      "2019_2021",
+      "2024_now"
+    ],
+    "minneapolis": [
+      "2010_2014",
+      "2015_2017",
+      "2017_2019",
+      "2019_2021",
+      "2022_now"
+    ],
+    "new_york_city": [
+      "cohort_nyc_2010",
+      "cohort_nyc_2014",
+      "cohort_nyc_2018",
+      "cohort_nyc_2020",
+      "cohort_nyc_2022",
+      "cohort_nyc_2024"
+    ],
+    "philadelphia": [
+      "2010_2011",
+      "2012_2013",
+      "2014_2016",
+      "2017_2019",
+      "2020_2021",
+      "2022_2024",
+      "2025_now"
+    ],
+    "phoenix": [
+      "2010_2012",
+      "2013_2015",
+      "2016_2017",
+      "2018_2020",
+      "2021_2023",
+      "2024_now"
+    ],
+    "seattle": [
+      "2010_2016",
+      "2017_2019",
+      "2020_2021",
+      "2022_2024",
+      "2025_now"
+    ],
+    "washington_dc": [
+      "2010_2014",
+      "2015_2016",
+      "2017_2019",
+      "2020_2021",
+      "2022_2024",
+      "2025_now"
+    ]
+  },
+  "command": "python3 paper/figures/figure4_transition_dynamics/figure4_transition_dynamics.py",
+  "denominator_definitions": {
+    "existing": "anchor roof-mask m2 repeated for each native adjacent transition in which the Building is an eligible P-to-P observation; roof-area--cohort exposure",
+    "limitations": "neither denominator is usable roof surface, realized coverage, annual exposure, or a historical citywide roof census",
+    "new": "anchor roof-mask m2 summed once when a Building enters the strict new-Building risk group"
+  },
+  "evidence_scope": "descriptive full_aoi",
+  "exclusions": [
+    "cells with fewer than 10 strict first-event hosts in either route are hatched",
+    "cells without positive PV-area numerators or positive roof-area risk denominators are hatched",
+    "cells without finite positive count, Building-area, and roof-area ratios are hatched",
+    "no continuity corrections and no conversion of unavailable cells to zero"
+  ],
+  "filters": [
+    "scope == full_aoi",
+    "retain native adjacent transitions without bridging unknown or missing observations",
+    "apply transition_information_gate_v1.json identically to panels a--d"
+  ],
+  "generated_at_utc": "2026-09-03T19:07:19.807830+00:00",
+  "generator": {
+    "bytes": 63073,
+    "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/code/figure4_transition_dynamics.py",
+    "sha256": "64383adfd32643613b1efeca7c4f58efd67e93a4cf65f50cb8d65be409eced8f",
+    "version": "0.2.3"
+  },
+  "input_primary_keys": {
+    "area_transition": [
+      "city_id",
+      "scope",
+      "transition_index"
+    ],
+    "city_area": [
+      "city_id",
+      "scope"
+    ],
+    "roof_transition": [
+      "city_id",
+      "scope",
+      "transition_index"
+    ]
+  },
+  "inputs": [
+    {
+      "bytes": 118320,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/city_transition_area_weighted_stock_flow.csv",
+      "role": "REPRODUCED transition-level area stock-flow table",
+      "row_count": 134,
+      "sha256": "f0f4c1ed1f53a335978a4ac9667df648ec27b5068a501dad65d5578a48f88e75"
+    },
+    {
+      "bytes": 82947,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/city_transition_roof_area_weighted_stock_flow.csv",
+      "role": "REPRODUCED transition-level roof-area stock-flow table",
+      "row_count": 134,
+      "sha256": "b5d46a2f1ccc21f4ff5da10015df24095caeb9abaa530410b4ec2d0469faf467"
+    },
+    {
+      "bytes": 33800,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/city_area_weighted_stock_flow.csv",
+      "role": "REPRODUCED city area stock-flow reconciliation table",
+      "row_count": 32,
+      "sha256": "4f74fc928f74f1503b0495475db86d647112f9ee2668d0541c094baca4e11c8b"
+    },
+    {
+      "bytes": 45392,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/area_weighted_results_manifest.json",
+      "role": "owning area-weighted results manifest",
+      "sha256": "e195ed04ce85d5d9b79474971ba97593a516b7c9266333456917314e1928af6b"
+    },
+    {
+      "bytes": 157543,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/roof_area_weighted_results_manifest.json",
+      "role": "owning roof-area-weighted results manifest",
+      "sha256": "3f596484b49850065381fa6d1336dd02b7996dc9a9079ea629dfa3271d0f56a1"
+    },
+    {
+      "bytes": 19590,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/area_weighted_results_checks.json",
+      "role": "area-weighted results QA",
+      "sha256": "76b8d6be915a01fcdc7abdc570e2c9550363398a69157ebb3ea43c57765d3ac5"
+    },
+    {
+      "bytes": 32154,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/roof_area_weighted_results_checks.json",
+      "role": "roof-area-weighted results QA",
+      "sha256": "0ebbad9179da60d9baf3014450a0685f9ff68fcb97e2925e6f469b95b839fb54"
+    },
+    {
+      "bytes": 1634,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/documents/figure3_abc_checks.snapshot.json",
+      "role": "Figure 3 stable city order checks",
+      "sha256": "8ebdff4ed77c9e7ed933211cccf4b391b81403f77f9cc389347d2f3d9585c242"
+    },
+    {
+      "bytes": 6492,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/documents/figure3_abc_manifest.snapshot.json",
+      "role": "Figure 3 city-order owning manifest",
+      "sha256": "e1cd1db468e00de10a26f8b22595736b8269de5182cdf5f2dbae48191cfb407f"
+    },
+    {
+      "bytes": 3101,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/documents/transition_information_gate_v1.snapshot.json",
+      "role": "prespecified frozen transition information gate",
+      "sha256": "d0c58c902bc2096c11cc34a7cea678f166f65542a6dd9129b3dfa4c278516ec9"
+    },
+    {
+      "bytes": 902,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/code/temporal_pv.mplstyle",
+      "role": "shared plotting style",
+      "sha256": "c51dca319539f3d65cfe71238c9e77f2bb77be5ac3b8eea23726e96690c7bfd3"
+    },
+    {
+      "bytes": 367112,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/code/arial.ttf",
+      "role": "embedded plotting font",
+      "sha256": "413c78f91bd39e134f3c0bb204b1d5a90f29df9efddc8fd26950a178058d5d74"
+    },
+    {
+      "bytes": 34926,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/documents/FIGURE_PLAN.snapshot.md",
+      "role": "Figure 4 design contract",
+      "sha256": "fe0d9bda9da460296de9fffb42685f7f679707740961f131b56f58bcfa1b668c"
+    },
+    {
+      "bytes": 9816,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/documents/CLAIMS_EVIDENCE_MATRIX.snapshot.md",
+      "role": "claims and evidence ledger",
+      "sha256": "025c492d6849cf67d4cfe557328cfdab655b8118c5d3f00cca689759d2dcbb9e"
+    },
+    {
+      "bytes": 45005,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/documents/PAPER_ANALYSIS_AGENDA.snapshot.md",
+      "role": "scientific interpretation agenda",
+      "sha256": "bc67ea3dc6376d8d37ed14851027dc0c41cc2e12e20bc7ede6d06707c2574a18"
+    },
+    {
+      "bytes": 6333,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/documents/PAPER_README.snapshot.md",
+      "role": "paper architecture and status vocabulary",
+      "sha256": "8c7cefad3ec81d6cbb3bacbf32812fa25547a112a54cbc299c458a52d6a42cf1"
+    }
+  ],
+  "output_primary_keys": {
+    "a": [
+      "city_id",
+      "transition_index"
+    ],
+    "b": [
+      "city_id",
+      "transition_index",
+      "metric"
+    ],
+    "c": [
+      "city_id",
+      "transition_index",
+      "route"
+    ],
+    "d": [
+      "city_id"
+    ]
+  },
+  "outputs": {
+    "figure4_caption.md": {
+      "bytes": 2222,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/figure4_caption.md",
+      "sha256": "168417dba4aaec497aa198f5f245b83bd2cde2e3881601c172f801072990d1b2"
+    },
+    "figure4_checks.json": {
+      "bytes": 8470,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/figure4_checks.json",
+      "sha256": "84d5940539d17b2a291afa48fbd6bfb3ceccc70c9d3104c38a8a8b5d37ac8003"
+    },
+    "figure4_note.md": {
+      "bytes": 1950,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/figure4_note.md",
+      "sha256": "19b34f03f8917c6a3cbfe3d82a298e106916ad97d77b4345c4178f839bc61751"
+    },
+    "figure4_panel_a_data.csv": {
+      "bytes": 15824,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/figure4_panel_a_data.csv",
+      "row_count": 67,
+      "sha256": "11ce9ec7ce1cb85eaa39da6397812fa195c9971131aff6418df38e5264d5734b"
+    },
+    "figure4_panel_b_data.csv": {
+      "bytes": 28585,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/figure4_panel_b_data.csv",
+      "row_count": 201,
+      "sha256": "47db9cc24d0bac70178e7f3764061cc74963deb740a6b9d856ebf476a9f7e33e"
+    },
+    "figure4_panel_c_data.csv": {
+      "bytes": 7508,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/figure4_panel_c_data.csv",
+      "row_count": 28,
+      "sha256": "7dd47d40c7c7c189009c87a3c2d4a7f2280b703bf9107c2a240d657a4920e81c"
+    },
+    "figure4_panel_d_data.csv": {
+      "bytes": 3421,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/figure4_panel_d_data.csv",
+      "row_count": 15,
+      "sha256": "aca3b19c9566eff4e53dc288bc2dcc7d3d7859b9733bb08f7d346f732864c72d"
+    },
+    "figure4_transition_dynamics_v1.pdf": {
+      "bytes": 55571,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/figure4_transition_dynamics_v1.pdf",
+      "sha256": "15dedeed134600a0a9cc9466d1bd5fcc09468356e24c3e7c603ce92de4458e20"
+    },
+    "figure4_transition_dynamics_v1.png": {
+      "bytes": 421009,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure4_transition_dynamics/draft_v1/figure4_transition_dynamics_v1.png",
+      "sha256": "0a01744d821f3505f1cbae8ac573114641ae2ead9f82c039d7b8499d2bca3486"
+    }
+  },
+  "panel_c_selection": [
+    {
+      "city_id": "miami",
+      "role": "frequency-variation exemplar"
+    },
+    {
+      "city_id": "boston",
+      "role": "system-size-variation exemplar"
+    },
+    {
+      "city_id": "new_york_city",
+      "role": "denominator-sensitivity exemplar"
+    }
+  ],
+  "schema_version": "figure4-transition-dynamics-manifest-v1",
+  "status": "REPRODUCED"
+}

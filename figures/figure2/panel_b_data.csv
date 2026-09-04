@@ -1,0 +1,5 @@
+panel,weighting,route,value,total,share,unit,denominator,status
+b,strict_first_event_host_count,new_building,9734,359527,0.027074461723319808,unique hosts,strict-classified unique first-event hosts,REPRODUCED
+b,strict_first_event_host_count,existing_building,349793,359527,0.9729255382766802,unique hosts,strict-classified unique first-event hosts,REPRODUCED
+b,attributed_anchor_pv_area,new_building,1253985.814074305,20347789.98782469,0.06162761729036127,m2,anchor PV area on strict-classified unique first-event hosts,REPRODUCED
+b,attributed_anchor_pv_area,existing_building,19093804.173750386,20347789.98782469,0.9383723827096386,m2,anchor PV area on strict-classified unique first-event hosts,REPRODUCED

@@ -1,0 +1,100 @@
+{
+  "analysis_scope": "visual alignment derivative of frozen Panel a",
+  "canvas_inches": [
+    4.96,
+    3.76
+  ],
+  "figure": "Figure 2a aligned visual derivative",
+  "font_family": "Arial",
+  "generated_at_utc": "2026-09-03T04:08:16.685550+00:00",
+  "inputs": [
+    {
+      "bytes": 33800,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/city_area_weighted_stock_flow.csv",
+      "role": "primary_full_aoi_area_stock_flow",
+      "row_count": 32,
+      "sha256": "4f74fc928f74f1503b0495475db86d647112f9ee2668d0541c094baca4e11c8b"
+    },
+    {
+      "bytes": 45392,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/area_weighted_results_manifest.json",
+      "role": "owning_area_results_manifest",
+      "sha256": "e195ed04ce85d5d9b79474971ba97593a516b7c9266333456917314e1928af6b"
+    },
+    {
+      "bytes": 35863,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_draft.py",
+      "role": "shared_figure2_renderer",
+      "sha256": "630fd035b1d8b69532bb3e3ac9e331eea5f0082c312b806992158037f9132cc7"
+    },
+    {
+      "bytes": 2012,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panels_cd_shared_checks.json",
+      "role": "panel_c_rendered_alignment_target",
+      "sha256": "923f9b0263b38b3feba5fb9bf3bdc59650f451c3b0fa859bf979789e72706c19"
+    },
+    {
+      "bytes": 3854,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panels_cd_shared_manifest.json",
+      "role": "panels_cd_shared_manifest",
+      "sha256": "0a366790dfbed1eed066fdcf0ef0d2af9e6981dd29d93ec475410580b9cdd685"
+    },
+    {
+      "bytes": 5448,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/panel_a_revision3/figure2_panel_a_data.csv",
+      "role": "frozen_panel_a_numerical_derivative",
+      "sha256": "1697d85e428e06dfbbc606db59aa0caf082031045fac897d2d6fba14ad292f8d"
+    },
+    {
+      "bytes": 3556,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/panel_a_revision3/figure2_panel_a_manifest.json",
+      "role": "frozen_panel_a_manifest",
+      "sha256": "a68e5649286a4106d09a9724b02a3f58ab53a23abb2a0038fd588778f3cfbddc"
+    },
+    {
+      "bytes": 3321,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/panel_a_revision3/freeze_manifest.json",
+      "role": "panel_a_freeze_manifest",
+      "sha256": "47831a718da67848218cd34c9fe71a0204de571f3f229951213cf61cee153ff9"
+    },
+    {
+      "bytes": 902,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/style/temporal_pv.mplstyle",
+      "role": "shared_matplotlib_style",
+      "sha256": "c51dca319539f3d65cfe71238c9e77f2bb77be5ac3b8eea23726e96690c7bfd3"
+    },
+    {
+      "bytes": 367112,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/initial_v1/figure1_abcd/code/arial.ttf",
+      "role": "font",
+      "sha256": "413c78f91bd39e134f3c0bb204b1d5a90f29df9efddc8fd26950a178058d5d74"
+    }
+  ],
+  "outputs": {
+    "figure2_panel_a_aligned.pdf": {
+      "bytes": 32569,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_a_aligned.pdf",
+      "sha256": "1ab916a8ca9962eb23e0a7fec9bcd7f4f3e6d112bb71daa84e7ebd505a460d67"
+    },
+    "figure2_panel_a_aligned.png": {
+      "bytes": 216405,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_a_aligned.png",
+      "sha256": "d611d75bb9158058af1a1af5598fd14b1aae38bf12d061183f7f69e6db23e214"
+    },
+    "figure2_panel_a_aligned_checks.json": {
+      "bytes": 1142,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_a_aligned_checks.json",
+      "sha256": "4a4fb9118b3ee900d19c422c382e7bf3477f01cb841a8a8c392b27595f78ca00"
+    },
+    "figure2_panel_a_aligned_note.md": {
+      "bytes": 455,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_a_aligned_note.md",
+      "sha256": "0cd9569dcf3be9ec6b8a6f47b91b31756c7279117f547c05761d283bdaa3bfd4"
+    }
+  },
+  "schema_version": "figure2-panel-a-aligned-manifest-v1",
+  "script_path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_a_aligned.py",
+  "script_sha256": "c8f1aae0e5d27d457dfbaa2594c13d6aa375853b2349b594e904f3e40949ce7d",
+  "script_version": "0.1.1",
+  "status": "REPRODUCED"
+}

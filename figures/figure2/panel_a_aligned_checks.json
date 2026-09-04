@@ -1,0 +1,27 @@
+{
+  "aligned_left_margin_fraction": 0.25146729390681,
+  "analysis_scope": "visual alignment derivative of frozen Panel a",
+  "canvas_inches": [
+    4.96,
+    3.76
+  ],
+  "frozen_panel_a_data_csv": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/panel_a_revision3/figure2_panel_a_data.csv",
+  "frozen_panel_a_data_hash_verified": true,
+  "frozen_panel_a_source_modified": false,
+  "generated_at_utc": "2026-09-03T04:08:16.684954+00:00",
+  "initial_left_margin_fraction": 0.17,
+  "panel_a_c_label_left_edges_aligned": true,
+  "panel_a_label_left_inches": 0.65,
+  "panel_a_ytick_label_right_inches": 1.1500555555555554,
+  "panel_c_shared_checks_hash_verified": true,
+  "panel_label_alignment_error_points": 0.0,
+  "panel_label_y_fraction": 0.955,
+  "schema_version": "figure2-panel-a-aligned-checks-v1",
+  "scientific_values_unchanged_from_frozen_panel_a": true,
+  "source_area_hash_verified": true,
+  "status": "REPRODUCED",
+  "target_panel_c_label_left_inches": 0.65,
+  "target_panel_c_ytick_label_right_inches": 1.1500555555555554,
+  "ytick_alignment_error_points": 0.0,
+  "ytick_right_edges_aligned_with_panel_c": true
+}

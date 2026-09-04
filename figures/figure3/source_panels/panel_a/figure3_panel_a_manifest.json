@@ -1,0 +1,81 @@
+{
+  "city_order_rule": "descending full-AOI PV first-appearance ratio; pooled row last",
+  "generated_at_utc": "2026-09-03T14:28:30.061258+00:00",
+  "generator": {
+    "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/figure3_panel_a_appearance_sorted.py",
+    "sha256": "5ec2909433a46be432bd600d10fc85c901f5f7f7628ddcb766a1c199d39a8680",
+    "version": "0.2.2"
+  },
+  "inputs": [
+    {
+      "bytes": 23026,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/city_roof_area_weighted_stock_flow.csv",
+      "role": "three displayed city comparisons",
+      "row_count": 32,
+      "sha256": "4833e21792a891f404a2100172e0b0439d3f36d1dd769576c1b1698ea6e9738d"
+    },
+    {
+      "bytes": 157543,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/roof_area_weighted_results_manifest.json",
+      "role": "roof-area source manifest",
+      "sha256": "3f596484b49850065381fa6d1336dd02b7996dc9a9079ea629dfa3271d0f56a1"
+    },
+    {
+      "bytes": 35188,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/figure3_draft.py",
+      "role": "shared Figure 3 helpers",
+      "sha256": "6540c2a7cadf79795c91147d25ddc1b183c0ea79091bb6e69076dd31befb0322"
+    },
+    {
+      "bytes": 902,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/style/temporal_pv.mplstyle",
+      "role": "shared plotting style",
+      "sha256": "c51dca319539f3d65cfe71238c9e77f2bb77be5ac3b8eea23726e96690c7bfd3"
+    },
+    {
+      "bytes": 367112,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/initial_v1/figure1_abcd/code/arial.ttf",
+      "role": "embedded plotting font",
+      "sha256": "413c78f91bd39e134f3c0bb204b1d5a90f29df9efddc8fd26950a178058d5d74"
+    }
+  ],
+  "outputs": {
+    "figure3_panel_a_appearance_sorted_v2.pdf": {
+      "bytes": 33267,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_a_appearance_sorted_v2/figure3_panel_a_appearance_sorted_v2.pdf",
+      "sha256": "830d4b1efd4773e70c6ae8187625a2ff71302ab2f2411957ad9f70e35c095342"
+    },
+    "figure3_panel_a_appearance_sorted_v2.png": {
+      "bytes": 171904,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_a_appearance_sorted_v2/figure3_panel_a_appearance_sorted_v2.png",
+      "sha256": "772b2f9365846499fc115a860313a6fe3a7287d6d6342979d60f5493a81c6168"
+    },
+    "figure3_panel_a_caption.md": {
+      "bytes": 735,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_a_appearance_sorted_v2/figure3_panel_a_caption.md",
+      "sha256": "ade90a4f5a891d826408c9525db2231d86cde746ae7dc2c170fa33ef1739d3cf"
+    },
+    "figure3_panel_a_checks.json": {
+      "bytes": 1650,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_a_appearance_sorted_v2/figure3_panel_a_checks.json",
+      "sha256": "638cc448f5bb3abc9986179c6f76d04bc0bc6b0b43338552458141bf650a5f1b"
+    },
+    "figure3_panel_a_data.csv": {
+      "bytes": 9223,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_a_appearance_sorted_v2/figure3_panel_a_data.csv",
+      "sha256": "d7fb1f77d63efc460e467f97fc11c3667eb3bcaa7abe97dece73354b8ba66227"
+    },
+    "figure3_panel_a_note.md": {
+      "bytes": 817,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure3_roof_area/panel_a_appearance_sorted_v2/figure3_panel_a_note.md",
+      "sha256": "7f4e0cb426acbf0353bc8aebb19ba58ee722b8b5195b0bda5bff5baea63e9788"
+    }
+  },
+  "primary_key": [
+    "city_id",
+    "metric"
+  ],
+  "schema_version": "figure3-panel-a-appearance-sorted-manifest-v2",
+  "scope": "full_aoi",
+  "status": "REPRODUCED"
+}

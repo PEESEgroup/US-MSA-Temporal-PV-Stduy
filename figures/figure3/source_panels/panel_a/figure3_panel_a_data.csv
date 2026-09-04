@@ -1,0 +1,49 @@
+panel,city_id,city_name,display_order,order_value_pv_first_appearance_ratio,order_rule,metric,metric_label,newly_observed_to_existing_ratio,scope,status
+a,detroit,Detroit,1,2.4731022572362202,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,2.4731022572362202,full_aoi,REPRODUCED
+a,detroit,Detroit,1,2.4731022572362202,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,5.4598086564315755,full_aoi,REPRODUCED
+a,detroit,Detroit,1,2.4731022572362202,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,8.959934580760745,full_aoi,REPRODUCED
+a,denver,Denver,2,1.9057277498618364,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,1.9057277498618364,full_aoi,REPRODUCED
+a,denver,Denver,2,1.9057277498618364,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,3.9243858800007922,full_aoi,REPRODUCED
+a,denver,Denver,2,1.9057277498618364,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,3.747773048923982,full_aoi,REPRODUCED
+a,minneapolis,Minneapolis,3,1.6464892360792558,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,1.6464892360792558,full_aoi,REPRODUCED
+a,minneapolis,Minneapolis,3,1.6464892360792558,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,1.921787576237755,full_aoi,REPRODUCED
+a,minneapolis,Minneapolis,3,1.6464892360792558,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,3.0194181129788302,full_aoi,REPRODUCED
+a,los_angeles,Los Angeles,4,1.2675174614460143,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,1.2675174614460143,full_aoi,REPRODUCED
+a,los_angeles,Los Angeles,4,1.2675174614460143,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,4.041124555167372,full_aoi,REPRODUCED
+a,los_angeles,Los Angeles,4,1.2675174614460143,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,6.238828544143896,full_aoi,REPRODUCED
+a,dallas,Dallas,5,1.140926678748102,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,1.140926678748102,full_aoi,REPRODUCED
+a,dallas,Dallas,5,1.140926678748102,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,4.624201687794158,full_aoi,REPRODUCED
+a,dallas,Dallas,5,1.140926678748102,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,5.65029536106116,full_aoi,REPRODUCED
+a,miami,Miami,6,1.0162574222681224,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,1.0162574222681224,full_aoi,REPRODUCED
+a,miami,Miami,6,1.0162574222681224,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,1.5453844615462728,full_aoi,REPRODUCED
+a,miami,Miami,6,1.0162574222681224,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,1.695059304349095,full_aoi,REPRODUCED
+a,philadelphia,Philadelphia,7,0.9827983448602523,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,0.9827983448602523,full_aoi,REPRODUCED
+a,philadelphia,Philadelphia,7,0.9827983448602523,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,1.189723169274338,full_aoi,REPRODUCED
+a,philadelphia,Philadelphia,7,0.9827983448602523,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,1.572005314104923,full_aoi,REPRODUCED
+a,atlanta,Atlanta,8,0.8338632059708143,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,0.8338632059708143,full_aoi,REPRODUCED
+a,atlanta,Atlanta,8,0.8338632059708143,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,1.2177697248388692,full_aoi,REPRODUCED
+a,atlanta,Atlanta,8,0.8338632059708143,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,2.4190034261646938,full_aoi,REPRODUCED
+a,charlotte,Charlotte,9,0.8266559663684061,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,0.8266559663684061,full_aoi,REPRODUCED
+a,charlotte,Charlotte,9,0.8266559663684061,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,0.8208063870915132,full_aoi,REPRODUCED
+a,charlotte,Charlotte,9,0.8266559663684061,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,1.2539719123458013,full_aoi,REPRODUCED
+a,seattle,Seattle,10,0.757061509671278,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,0.757061509671278,full_aoi,REPRODUCED
+a,seattle,Seattle,10,0.757061509671278,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,1.8001424271457724,full_aoi,REPRODUCED
+a,seattle,Seattle,10,0.757061509671278,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,3.1178071326397476,full_aoi,REPRODUCED
+a,chicago,Chicago,11,0.641239041644513,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,0.641239041644513,full_aoi,REPRODUCED
+a,chicago,Chicago,11,0.641239041644513,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,0.804987971261095,full_aoi,REPRODUCED
+a,chicago,Chicago,11,0.641239041644513,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,1.5284505180144707,full_aoi,REPRODUCED
+a,washington_dc,Washington DC,12,0.6353498527242489,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,0.6353498527242489,full_aoi,REPRODUCED
+a,washington_dc,Washington DC,12,0.6353498527242489,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,1.972853912168398,full_aoi,REPRODUCED
+a,washington_dc,Washington DC,12,0.6353498527242489,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,3.1445850113045544,full_aoi,REPRODUCED
+a,phoenix,Phoenix,13,0.5827641006889213,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,0.5827641006889213,full_aoi,REPRODUCED
+a,phoenix,Phoenix,13,0.5827641006889213,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,1.077742128795363,full_aoi,REPRODUCED
+a,phoenix,Phoenix,13,0.5827641006889213,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,1.5103077665298572,full_aoi,REPRODUCED
+a,new_york_city,New York City,14,0.46061353704712416,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,0.46061353704712416,full_aoi,REPRODUCED
+a,new_york_city,New York City,14,0.46061353704712416,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,1.0941268945513865,full_aoi,REPRODUCED
+a,new_york_city,New York City,14,0.46061353704712416,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,1.8946914299713244,full_aoi,REPRODUCED
+a,boston,Boston,15,0.29262427507242234,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,0.29262427507242234,full_aoi,REPRODUCED
+a,boston,Boston,15,0.29262427507242234,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,1.6733565560438903,full_aoi,REPRODUCED
+a,boston,Boston,15,0.29262427507242234,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,2.4350413247912663,full_aoi,REPRODUCED
+a,all_cities_pooled,All cities,16,0.9282990134547939,descending PV first-appearance ratio; pooled row last,pv_first_appearance_frequency_per_building,PV first appearances / building,0.9282990134547939,full_aoi,REPRODUCED
+a,all_cities_pooled,All cities,16,0.9282990134547939,descending PV first-appearance ratio; pooled row last,pv_area_per_building,PV area / building,2.190825668171668,full_aoi,REPRODUCED
+a,all_cities_pooled,All cities,16,0.9282990134547939,descending PV first-appearance ratio; pooled row last,pv_area_per_roof_m2,PV area / m² of roof,3.1528549857437964,full_aoi,REPRODUCED

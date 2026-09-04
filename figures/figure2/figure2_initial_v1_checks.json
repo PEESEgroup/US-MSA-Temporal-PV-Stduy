@@ -1,0 +1,70 @@
+{
+  "analysis_scope": "native-vector composition of reproduced panel derivatives",
+  "bottom_shared_dimensions_inches": [
+    8.266666666666667,
+    4.35
+  ],
+  "city_order_sort_description": "Panel d observed new building PV area per newly observed building",
+  "city_order_sort_direction": "descending",
+  "city_order_sort_key": "pv_area_yield_new_m2_per_new_building",
+  "city_order_sorted_by_panel_d_observed_new_building_pv_area": true,
+  "combined_dimensions_inches": [
+    7.893333333333334,
+    8.09
+  ],
+  "combined_png_dimensions_pixels": [
+    2368,
+    2427
+  ],
+  "generated_at_utc": "2026-09-03T20:00:57.787482+00:00",
+  "layout": "a-b above shared-axis c-d",
+  "left_content_margin_inches": 0.1,
+  "left_content_margin_pixels_at_300_dpi": 30,
+  "left_crop_preserves_all_rendered_content": true,
+  "left_whitespace_crop_inches": 0.37333333333333335,
+  "left_whitespace_crop_pixels_at_300_dpi": 112,
+  "native_vector_pdf": true,
+  "panel_a_and_b_page_heights_equal": true,
+  "panel_a_c_label_alignment_error_points": 0.0,
+  "panel_a_c_label_left_edges_aligned": true,
+  "panel_a_c_ytick_alignment_error_points": 0.0,
+  "panel_a_c_ytick_right_edges_aligned": true,
+  "panel_a_dimensions_inches": [
+    4.96,
+    3.7600000000000002
+  ],
+  "panel_a_frozen_hashes_verified": true,
+  "panel_a_source_modified": false,
+  "panel_a_uses_aligned_visual_derivative": true,
+  "panel_b_d_label_alignment_error_points": 0.0,
+  "panel_b_d_label_left_edges_aligned": true,
+  "panel_b_dimensions_inches": [
+    3.3066666666666666,
+    3.7600000000000002
+  ],
+  "panel_b_is_two_thirds_panel_a": true,
+  "panel_b_to_a_width_ratio": 0.6666666666666667,
+  "panel_c_d_city_order_matches": true,
+  "panel_d_repeated_city_labels_removed": true,
+  "panel_labels_a_to_d_present": true,
+  "panel_pages_embedded_without_scaling": true,
+  "panels_c_d_generated_together": true,
+  "panels_c_d_share_yaxis": true,
+  "pdf_extractable_text_character_count": 1400,
+  "pdf_font_resources_present": true,
+  "pdf_page_count": 1,
+  "per_panel_data_tables": {
+    "a": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/panel_a_revision3/figure2_panel_a_data.csv",
+    "b": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_b_data.csv",
+    "c": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_data.csv",
+    "d": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_data.csv"
+  },
+  "png_uses_source_300_dpi_without_resampling": true,
+  "row_overlap_strips_are_content_free": true,
+  "row_vspace_reduction_inches": 0.02,
+  "row_vspace_reduction_pixels_at_300_dpi": 6,
+  "schema_version": "figure2-abcd-vector-checks-v1",
+  "source_combined_width_inches_before_left_crop": 8.266666666666667,
+  "status": "REPRODUCED",
+  "top_and_bottom_page_widths_equal": true
+}

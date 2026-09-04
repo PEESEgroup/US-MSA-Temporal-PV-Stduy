@@ -1,0 +1,99 @@
+{
+  "analysis_scope": "descriptive arithmetic",
+  "canvas_inches": [
+    3.3066666666666666,
+    4.35
+  ],
+  "figure": "Figure 2d capacity-parity frontier draft",
+  "font_family": "Arial",
+  "generated_at_utc": "2026-09-03T19:55:39.938989+00:00",
+  "inputs": [
+    {
+      "bytes": 33800,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/city_area_weighted_stock_flow.csv",
+      "role": "primary_full_aoi_area_stock_flow",
+      "row_count": 32,
+      "sha256": "4f74fc928f74f1503b0495475db86d647112f9ee2668d0541c094baca4e11c8b"
+    },
+    {
+      "bytes": 45392,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/area_weighted_results_manifest.json",
+      "role": "owning_area_results_manifest",
+      "sha256": "e195ed04ce85d5d9b79474971ba97593a516b7c9266333456917314e1928af6b"
+    },
+    {
+      "bytes": 1276,
+      "path": "/home/ec2-user/rpv-work/analytics/data_high_level/pv_area_capacity_density_scenarios.csv",
+      "role": "capacity_density_scenarios",
+      "row_count": 3,
+      "sha256": "fadb73848f5ff92c5c1c2bd1c9763f151868de63e63acb2f4d62cee237485097"
+    },
+    {
+      "bytes": 2605,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_checks.json",
+      "role": "panel_c_city_order_checks",
+      "sha256": "13f5fdb2be845285e7ce89c3d226bd466992f940d4928f5e2dbae5671355488a"
+    },
+    {
+      "bytes": 4040,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_manifest.json",
+      "role": "panel_c_manifest",
+      "sha256": "d8f792a14b446cde48ff20768c7d4b98d3e93a8d290ddd0937bc1416e97cb24e"
+    },
+    {
+      "bytes": 35863,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_draft.py",
+      "role": "shared_style_and_helpers",
+      "sha256": "630fd035b1d8b69532bb3e3ac9e331eea5f0082c312b806992158037f9132cc7"
+    },
+    {
+      "bytes": 902,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/style/temporal_pv.mplstyle",
+      "role": "shared_matplotlib_style",
+      "sha256": "c51dca319539f3d65cfe71238c9e77f2bb77be5ac3b8eea23726e96690c7bfd3"
+    },
+    {
+      "bytes": 367112,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/initial_v1/figure1_abcd/code/arial.ttf",
+      "role": "font",
+      "sha256": "413c78f91bd39e134f3c0bb204b1d5a90f29df9efddc8fd26950a178058d5d74"
+    }
+  ],
+  "outputs": {
+    "figure2_panel_d_caption.md": {
+      "bytes": 762,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_caption.md",
+      "sha256": "427fa71928c7b637f7310b66bb96fb3f3f507d792177e035d430136c165e2760"
+    },
+    "figure2_panel_d_checks.json": {
+      "bytes": 2591,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_checks.json",
+      "sha256": "0e92b44da4e7340f082df6d14962208a4e3640a4602784dc06dc3a75da2858ee"
+    },
+    "figure2_panel_d_data.csv": {
+      "bytes": 6347,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_data.csv",
+      "sha256": "adfb16a1af2f451784debb2c42aebf03c92a5c229202e665309c03f134cc4f81"
+    },
+    "figure2_panel_d_draft.pdf": {
+      "bytes": 27155,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_draft.pdf",
+      "sha256": "015a5924152293dd70adc86242199e4bbb06778369ff690f0127020c72aaa5ab"
+    },
+    "figure2_panel_d_draft.png": {
+      "bytes": 116317,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_draft.png",
+      "sha256": "17d8934ea3b687212daf67ab92d844673a46db7fd132f29495b0b9974a0fad56"
+    },
+    "figure2_panel_d_note.md": {
+      "bytes": 934,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_note.md",
+      "sha256": "6e30f46b3d87f59132439a0e63cf495d792c018c8220011d5932e2b8b332102e"
+    }
+  },
+  "schema_version": "figure2-panel-d-manifest-v1",
+  "script_path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_draft.py",
+  "script_sha256": "6b2c63494990148c998954683f495153db1f60571772ee238adaf1bbf2d8a280",
+  "script_version": "0.2.0",
+  "status": "REPRODUCED"
+}

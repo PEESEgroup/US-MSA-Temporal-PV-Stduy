@@ -1,0 +1,202 @@
+panel,city_id,city_display,city_order,transition_index,previous_cohort,current_cohort,metric,metric_order,ratio_new_to_existing,direction,any_three_metric_direction_disagreement,information_gate_eligible,information_gate_failure_reasons,status
+b,detroit,Detroit,1,1,2010_2014,2015_2018,count_rr,1,1.8540563761612139,newly_observed_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,detroit,Detroit,1,1,2010_2014,2015_2018,pv_area_per_building,2,0.9881858623923243,existing_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,detroit,Detroit,1,1,2010_2014,2015_2018,pv_area_per_roof_m2,3,1.8562372271412488,newly_observed_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,detroit,Detroit,1,2,2015_2018,2019_2021,count_rr,1,19.541708614986337,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,detroit,Detroit,1,2,2015_2018,2019_2021,pv_area_per_building,2,39.84291451726092,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,detroit,Detroit,1,2,2015_2018,2019_2021,pv_area_per_roof_m2,3,37.15306678994898,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,detroit,Detroit,1,3,2019_2021,2022_2024,count_rr,1,3.1238699877463443,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,detroit,Detroit,1,3,2019_2021,2022_2024,pv_area_per_building,2,5.839338920706584,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,detroit,Detroit,1,3,2019_2021,2022_2024,pv_area_per_roof_m2,3,8.061775572835627,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,detroit,Detroit,1,4,2022_2024,2025_now,count_rr,1,3.670280940782777,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,detroit,Detroit,1,4,2022_2024,2025_now,pv_area_per_building,2,8.9053977277525,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,detroit,Detroit,1,4,2022_2024,2025_now,pv_area_per_roof_m2,3,17.028196659517473,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,1,2010_2012,2013_2016,count_rr,1,1.9843716887211598,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,1,2010_2012,2013_2016,pv_area_per_building,2,1.6883105618175194,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,1,2010_2012,2013_2016,pv_area_per_roof_m2,3,1.7458561160615989,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,2,2013_2016,2017_2020,count_rr,1,2.096513027804103,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,2,2013_2016,2017_2020,pv_area_per_building,2,3.2518683609993535,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,2,2013_2016,2017_2020,pv_area_per_roof_m2,3,2.465963901502633,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,3,2017_2020,2021_2024,count_rr,1,2.681694383879707,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,3,2017_2020,2021_2024,pv_area_per_building,2,3.1461862087403167,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,3,2017_2020,2021_2024,pv_area_per_roof_m2,3,2.5843675284227947,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,4,2021_2024,2025_now,count_rr,1,1.4342430942133397,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,4,2021_2024,2025_now,pv_area_per_building,2,7.310885279906353,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,denver,Denver,2,4,2021_2024,2025_now,pv_area_per_roof_m2,3,9.945450099668804,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,1,2010_2014,2015_2017,count_rr,1,1.1573464912280702,newly_observed_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,1,2010_2014,2015_2017,pv_area_per_building,2,0.5129888218686933,existing_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,1,2010_2014,2015_2017,pv_area_per_roof_m2,3,0.6762587742255215,existing_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,2,2015_2017,2017_2019,count_rr,1,0.6446536625557954,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,2,2015_2017,2017_2019,pv_area_per_building,2,0.6250435468090018,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,2,2015_2017,2017_2019,pv_area_per_roof_m2,3,0.8192402469475197,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,3,2017_2019,2019_2021,count_rr,1,4.009480242802618,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,3,2017_2019,2019_2021,pv_area_per_building,2,8.332537392872673,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,3,2017_2019,2019_2021,pv_area_per_roof_m2,3,10.40889944803894,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,4,2019_2021,2022_now,count_rr,1,0.9777201153896082,existing_higher,True,True,,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,4,2019_2021,2022_now,pv_area_per_building,2,1.1605608837048993,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,minneapolis,Minneapolis,3,4,2019_2021,2022_now,pv_area_per_roof_m2,3,2.3798141586836974,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,1,2010_2015,2016_2018,count_rr,1,1.5246634320531147,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,1,2010_2015,2016_2018,pv_area_per_building,2,3.2839474169065057,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,1,2010_2015,2016_2018,pv_area_per_roof_m2,3,4.391849003549582,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,2,2016_2018,2019_2021,count_rr,1,1.5935696168188094,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,2,2016_2018,2019_2021,pv_area_per_building,2,5.750019542380219,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,2,2016_2018,2019_2021,pv_area_per_roof_m2,3,8.76044130326246,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,3,2019_2021,2022_2024,count_rr,1,1.6968581259634319,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,3,2019_2021,2022_2024,pv_area_per_building,2,6.047070202352506,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,3,2019_2021,2022_2024,pv_area_per_roof_m2,3,9.505202357523736,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,4,2022_2024,2025_now,count_rr,1,1.1203940704635675,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,4,2022_2024,2025_now,pv_area_per_building,2,3.3355454253067,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,los_angeles,Los Angeles,4,4,2022_2024,2025_now,pv_area_per_roof_m2,3,6.651677896277638,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,1,2010,2015,count_rr,1,1.3511784772763924,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,1,2010,2015,pv_area_per_building,2,2.4503370589689455,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,1,2010,2015,pv_area_per_roof_m2,3,3.0255224625588415,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,2,2015,2018,count_rr,1,2.636889952593305,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,2,2015,2018,pv_area_per_building,2,8.02250670825514,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,2,2015,2018,pv_area_per_roof_m2,3,7.2669176756147795,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,3,2018,2020,count_rr,1,3.549519622399519,newly_observed_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,dallas,Dallas,5,3,2018,2020,pv_area_per_building,2,4.444198603204389,newly_observed_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,dallas,Dallas,5,3,2018,2020,pv_area_per_roof_m2,3,4.511417131546239,newly_observed_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,dallas,Dallas,5,4,2020,2022,count_rr,1,0.7142714685393438,existing_higher,True,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,4,2020,2022,pv_area_per_building,2,1.5968847414272733,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,4,2020,2022,pv_area_per_roof_m2,3,2.1453017179036076,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,5,2022,2025,count_rr,1,1.3146419655486243,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,5,2022,2025,pv_area_per_building,2,7.212701230068082,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,dallas,Dallas,5,5,2022,2025,pv_area_per_roof_m2,3,11.237596832262895,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,1,2010_2012,2013_2015,count_rr,1,0.4976187285779665,existing_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,1,2010_2012,2013_2015,pv_area_per_building,2,0.7160162876049283,existing_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,1,2010_2012,2013_2015,pv_area_per_roof_m2,3,0.9333935477715057,existing_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,2,2013_2015,2016_2018,count_rr,1,1.3159946849359256,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,2,2013_2015,2016_2018,pv_area_per_building,2,4.408858665054396,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,2,2013_2015,2016_2018,pv_area_per_roof_m2,3,3.943965457573403,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,3,2016_2018,2019_2021,count_rr,1,1.1720699880701548,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,3,2016_2018,2019_2021,pv_area_per_building,2,1.6992942980576438,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,3,2016_2018,2019_2021,pv_area_per_roof_m2,3,1.5174559653825124,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,4,2019_2021,2024_now,count_rr,1,1.1831320452319474,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,4,2019_2021,2024_now,pv_area_per_building,2,1.4950881178695505,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,miami,Miami,6,4,2019_2021,2024_now,pv_area_per_roof_m2,3,1.8301002223806504,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,1,2010_2011,2012_2013,count_rr,1,3.46951310612726,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,1,2010_2011,2012_2013,pv_area_per_building,2,1.4896189563556894,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,1,2010_2011,2012_2013,pv_area_per_roof_m2,3,1.8422848048473892,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,2,2012_2013,2014_2016,count_rr,1,2.0338095101772065,newly_observed_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,2,2012_2013,2014_2016,pv_area_per_building,2,0.5321318393385238,existing_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,2,2012_2013,2014_2016,pv_area_per_roof_m2,3,0.782023715493872,existing_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,3,2014_2016,2017_2019,count_rr,1,0.7024084802169358,existing_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,3,2014_2016,2017_2019,pv_area_per_building,2,0.8427279422826573,existing_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,3,2014_2016,2017_2019,pv_area_per_roof_m2,3,1.2414136871110364,newly_observed_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,4,2017_2019,2020_2021,count_rr,1,0.7003633474387131,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,4,2017_2019,2020_2021,pv_area_per_building,2,0.22864687247298157,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,4,2017_2019,2020_2021,pv_area_per_roof_m2,3,0.3062665437832452,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,5,2020_2021,2022_2024,count_rr,1,0.8377784285306537,existing_higher,True,True,,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,5,2020_2021,2022_2024,pv_area_per_building,2,1.4532799908734115,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,5,2020_2021,2022_2024,pv_area_per_roof_m2,3,2.0434856209062042,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,6,2022_2024,2025_now,count_rr,1,1.0789081530932598,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,6,2022_2024,2025_now,pv_area_per_building,2,0.8767052212930004,existing_higher,True,True,,REPRODUCED descriptive
+b,philadelphia,Philadelphia,7,6,2022_2024,2025_now,pv_area_per_roof_m2,3,1.3574370306414791,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,atlanta,Atlanta,8,1,2010_2016,2017_2018,count_rr,1,1.5413193993280494,newly_observed_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,atlanta,Atlanta,8,1,2010_2016,2017_2018,pv_area_per_building,2,0.6660286715181483,existing_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,atlanta,Atlanta,8,1,2010_2016,2017_2018,pv_area_per_roof_m2,3,1.236385577080452,newly_observed_higher,True,False,y_new_below_minimum,REPRODUCED descriptive
+b,atlanta,Atlanta,8,2,2017_2018,2019_2021,count_rr,1,2.773803352341455,newly_observed_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,atlanta,Atlanta,8,2,2017_2018,2019_2021,pv_area_per_building,2,4.777260095195108,newly_observed_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,atlanta,Atlanta,8,2,2017_2018,2019_2021,pv_area_per_roof_m2,3,7.896223461666123,newly_observed_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,atlanta,Atlanta,8,3,2019_2021,2022_2024,count_rr,1,0.4875222666149688,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,atlanta,Atlanta,8,3,2019_2021,2022_2024,pv_area_per_building,2,0.1654542983802699,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,atlanta,Atlanta,8,3,2019_2021,2022_2024,pv_area_per_roof_m2,3,0.41272691058211075,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,atlanta,Atlanta,8,4,2022_2024,2025_now,count_rr,1,1.1266740053602504,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,atlanta,Atlanta,8,4,2022_2024,2025_now,pv_area_per_building,2,2.1318494349871235,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,atlanta,Atlanta,8,4,2022_2024,2025_now,pv_area_per_roof_m2,3,4.1824406541961086,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,charlotte,Charlotte,9,1,2010_2013,2014_2017,count_rr,1,1.1250321916044297,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,charlotte,Charlotte,9,1,2010_2013,2014_2017,pv_area_per_building,2,0.5040742422819582,existing_higher,True,True,,REPRODUCED descriptive
+b,charlotte,Charlotte,9,1,2010_2013,2014_2017,pv_area_per_roof_m2,3,0.7192832933876797,existing_higher,True,True,,REPRODUCED descriptive
+b,charlotte,Charlotte,9,2,2014_2017,2018_2021,count_rr,1,1.9921100642093874,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,charlotte,Charlotte,9,2,2014_2017,2018_2021,pv_area_per_building,2,1.7145243436584698,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,charlotte,Charlotte,9,2,2014_2017,2018_2021,pv_area_per_roof_m2,3,2.6605734925596662,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,charlotte,Charlotte,9,3,2018_2021,2022_now,count_rr,1,0.9975451632301698,existing_higher,True,True,,REPRODUCED descriptive
+b,charlotte,Charlotte,9,3,2018_2021,2022_now,pv_area_per_building,2,1.1907010145457462,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,charlotte,Charlotte,9,3,2018_2021,2022_now,pv_area_per_roof_m2,3,2.471142739955024,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,1,2010_2016,2017_2019,count_rr,1,0.968741378126314,existing_higher,True,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,1,2010_2016,2017_2019,pv_area_per_building,2,1.2271363183046147,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,1,2010_2016,2017_2019,pv_area_per_roof_m2,3,2.113629617556994,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,2,2017_2019,2020_2021,count_rr,1,1.318888549730998,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,2,2017_2019,2020_2021,pv_area_per_building,2,3.4654748755439906,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,2,2017_2019,2020_2021,pv_area_per_roof_m2,3,5.388265408870904,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,3,2020_2021,2022_2024,count_rr,1,0.689575444953003,existing_higher,True,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,3,2020_2021,2022_2024,pv_area_per_building,2,2.8362275931374423,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,3,2020_2021,2022_2024,pv_area_per_roof_m2,3,5.403330852279365,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,4,2022_2024,2025_now,count_rr,1,1.1439180656310335,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,4,2022_2024,2025_now,pv_area_per_building,2,2.3277020115732694,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,seattle,Seattle,10,4,2022_2024,2025_now,pv_area_per_roof_m2,3,4.604504008808471,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,1,2010,2014,count_rr,1,1.385118770895747,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,1,2010,2014,pv_area_per_building,2,0.7325542884627959,existing_higher,True,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,1,2010,2014,pv_area_per_roof_m2,3,1.4570676912864402,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,2,2014,2018,count_rr,1,1.8909453447727995,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,2,2014,2018,pv_area_per_building,2,5.483624095670509,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,2,2014,2018,pv_area_per_roof_m2,3,9.855260212085701,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,3,2018,2021,count_rr,1,0.7508653372608994,existing_higher,True,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,3,2018,2021,pv_area_per_building,2,0.7470238517287997,existing_higher,True,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,3,2018,2021,pv_area_per_roof_m2,3,1.3972717433136168,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,4,2021,2023,count_rr,1,0.7603594414520815,existing_higher,True,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,4,2021,2023,pv_area_per_building,2,1.6569292654635694,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,4,2021,2023,pv_area_per_roof_m2,3,2.684431946588284,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,5,2023,2025,count_rr,1,1.006915899996373,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,5,2023,2025,pv_area_per_building,2,0.966301591255574,existing_higher,True,True,,REPRODUCED descriptive
+b,chicago,Chicago,11,5,2023,2025,pv_area_per_roof_m2,3,2.042493843410432,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,1,2010_2014,2015_2016,count_rr,1,0.32878787878787874,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,1,2010_2014,2015_2016,pv_area_per_building,2,0.10164965790436156,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,1,2010_2014,2015_2016,pv_area_per_roof_m2,3,0.19018666327639555,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,2,2015_2016,2017_2019,count_rr,1,1.2034111359382995,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,2,2015_2016,2017_2019,pv_area_per_building,2,1.726657813650087,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,2,2015_2016,2017_2019,pv_area_per_roof_m2,3,1.8637977924191294,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,3,2017_2019,2020_2021,count_rr,1,1.48935376006123,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,3,2017_2019,2020_2021,pv_area_per_building,2,2.793656193227116,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,3,2017_2019,2020_2021,pv_area_per_roof_m2,3,4.068995853404596,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,4,2020_2021,2022_2024,count_rr,1,0.8807596943019004,existing_higher,True,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,4,2020_2021,2022_2024,pv_area_per_building,2,3.2023452926380465,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,4,2020_2021,2022_2024,pv_area_per_roof_m2,3,4.49880458968324,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,5,2022_2024,2025_now,count_rr,1,0.5290095882020145,existing_higher,True,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,5,2022_2024,2025_now,pv_area_per_building,2,4.840912817905695,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,washington_dc,Washington DC,12,5,2022_2024,2025_now,pv_area_per_roof_m2,3,11.153853023007681,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,1,2010_2012,2013_2015,count_rr,1,0.6106787453861566,existing_higher,True,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,1,2010_2012,2013_2015,pv_area_per_building,2,0.7455004400580798,existing_higher,True,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,1,2010_2012,2013_2015,pv_area_per_roof_m2,3,1.2071970542584065,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,2,2013_2015,2016_2017,count_rr,1,0.9752879992663956,existing_higher,True,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,2,2013_2015,2016_2017,pv_area_per_building,2,2.0635893571754846,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,2,2013_2015,2016_2017,pv_area_per_roof_m2,3,2.1876408576043147,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,3,2016_2017,2018_2020,count_rr,1,1.2685516454152068,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,3,2016_2017,2018_2020,pv_area_per_building,2,2.1548520473726334,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,3,2016_2017,2018_2020,pv_area_per_roof_m2,3,2.318108625883053,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,4,2018_2020,2021_2023,count_rr,1,1.0939859177306752,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,4,2018_2020,2021_2023,pv_area_per_building,2,2.097108102734971,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,4,2018_2020,2021_2023,pv_area_per_roof_m2,3,2.2436826521887054,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,5,2021_2023,2024_now,count_rr,1,0.6525177632846457,existing_higher,True,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,5,2021_2023,2024_now,pv_area_per_building,2,1.36516006472849,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,phoenix,Phoenix,13,5,2021_2023,2024_now,pv_area_per_roof_m2,3,1.9161853767609562,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,1,cohort_nyc_2010,cohort_nyc_2014,count_rr,1,1.0054372968209344,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,1,cohort_nyc_2010,cohort_nyc_2014,pv_area_per_building,2,1.287155821763282,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,1,cohort_nyc_2010,cohort_nyc_2014,pv_area_per_roof_m2,3,2.132807095835538,newly_observed_higher,False,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,2,cohort_nyc_2014,cohort_nyc_2018,count_rr,1,0.570028356382291,existing_higher,True,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,2,cohort_nyc_2014,cohort_nyc_2018,pv_area_per_building,2,1.410960828488984,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,2,cohort_nyc_2014,cohort_nyc_2018,pv_area_per_roof_m2,3,2.016428024195056,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,3,cohort_nyc_2018,cohort_nyc_2020,count_rr,1,0.39588738653772504,existing_higher,False,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,3,cohort_nyc_2018,cohort_nyc_2020,pv_area_per_building,2,0.4859868423636507,existing_higher,False,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,3,cohort_nyc_2018,cohort_nyc_2020,pv_area_per_roof_m2,3,0.7932568674674687,existing_higher,False,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,4,cohort_nyc_2020,cohort_nyc_2022,count_rr,1,0.863091693739999,existing_higher,True,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,4,cohort_nyc_2020,cohort_nyc_2022,pv_area_per_building,2,2.258179488028194,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,4,cohort_nyc_2020,cohort_nyc_2022,pv_area_per_roof_m2,3,4.7960540813037,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,5,cohort_nyc_2022,cohort_nyc_2024,count_rr,1,0.4695361210889311,existing_higher,True,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,5,cohort_nyc_2022,cohort_nyc_2024,pv_area_per_building,2,0.7415387633180476,existing_higher,True,True,,REPRODUCED descriptive
+b,new_york_city,New York City,14,5,cohort_nyc_2022,cohort_nyc_2024,pv_area_per_roof_m2,3,1.8734635171011356,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,boston,Boston,15,1,2011_2012,2013_2014,count_rr,1,0.31919813871016506,existing_higher,False,True,,REPRODUCED descriptive
+b,boston,Boston,15,1,2011_2012,2013_2014,pv_area_per_building,2,0.3125345831540667,existing_higher,False,True,,REPRODUCED descriptive
+b,boston,Boston,15,1,2011_2012,2013_2014,pv_area_per_roof_m2,3,0.44580217113901777,existing_higher,False,True,,REPRODUCED descriptive
+b,boston,Boston,15,2,2013_2014,2019,count_rr,1,0.3736587203388045,existing_higher,True,True,,REPRODUCED descriptive
+b,boston,Boston,15,2,2013_2014,2019,pv_area_per_building,2,2.787444567527294,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,boston,Boston,15,2,2013_2014,2019,pv_area_per_roof_m2,3,2.987091793463556,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,boston,Boston,15,3,2019,2021,count_rr,1,0.21790848085918696,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,boston,Boston,15,3,2019,2021,pv_area_per_building,2,0.12553582860004514,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,boston,Boston,15,3,2019,2021,pv_area_per_roof_m2,3,0.20694917163190252,existing_higher,False,False,y_new_below_minimum,REPRODUCED descriptive
+b,boston,Boston,15,4,2021,2023,count_rr,1,0.4620292663957047,existing_higher,True,True,,REPRODUCED descriptive
+b,boston,Boston,15,4,2021,2023,pv_area_per_building,2,3.643753545533128,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,boston,Boston,15,4,2021,2023,pv_area_per_roof_m2,3,6.560873118811684,newly_observed_higher,True,True,,REPRODUCED descriptive
+b,boston,Boston,15,5,2023,2025,count_rr,1,0.2589467185687879,existing_higher,True,True,,REPRODUCED descriptive
+b,boston,Boston,15,5,2023,2025,pv_area_per_building,2,0.6034641907288668,existing_higher,True,True,,REPRODUCED descriptive
+b,boston,Boston,15,5,2023,2025,pv_area_per_roof_m2,3,1.6249558586974786,newly_observed_higher,True,True,,REPRODUCED descriptive

@@ -1,0 +1,89 @@
+{
+  "analysis_scope": "native-vector shared-axis rendering of reproduced derivatives",
+  "canvas_inches": [
+    8.266666666666666,
+    4.35
+  ],
+  "figure": "Figure 2 panels c--d shared city axis",
+  "font_family": "Arial",
+  "generated_at_utc": "2026-09-03T20:00:56.848558+00:00",
+  "inputs": [
+    {
+      "bytes": 5786,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_data.csv",
+      "role": "panel_c_reproduced_data",
+      "row_count": 64,
+      "sha256": "4fadd13654976a03a3725c08fec887839a78f72345879a9f73b8ebc626a2df01"
+    },
+    {
+      "bytes": 2605,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_checks.json",
+      "role": "panel_c_checks",
+      "sha256": "13f5fdb2be845285e7ce89c3d226bd466992f940d4928f5e2dbae5671355488a"
+    },
+    {
+      "bytes": 4040,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_c_manifest.json",
+      "role": "panel_c_manifest",
+      "sha256": "d8f792a14b446cde48ff20768c7d4b98d3e93a8d290ddd0937bc1416e97cb24e"
+    },
+    {
+      "bytes": 6347,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_data.csv",
+      "role": "panel_d_reproduced_data",
+      "row_count": 32,
+      "sha256": "adfb16a1af2f451784debb2c42aebf03c92a5c229202e665309c03f134cc4f81"
+    },
+    {
+      "bytes": 2591,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_checks.json",
+      "role": "panel_d_checks",
+      "sha256": "0e92b44da4e7340f082df6d14962208a4e3640a4602784dc06dc3a75da2858ee"
+    },
+    {
+      "bytes": 4285,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panel_d_manifest.json",
+      "role": "panel_d_manifest",
+      "sha256": "ad5b5afbcbf3c56f1650c2c37de7508e7397a22149180661380abeb574883cec"
+    },
+    {
+      "bytes": 902,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/style/temporal_pv.mplstyle",
+      "role": "shared_matplotlib_style",
+      "sha256": "c51dca319539f3d65cfe71238c9e77f2bb77be5ac3b8eea23726e96690c7bfd3"
+    },
+    {
+      "bytes": 367112,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/initial_v1/figure1_abcd/code/arial.ttf",
+      "role": "font",
+      "sha256": "413c78f91bd39e134f3c0bb204b1d5a90f29df9efddc8fd26950a178058d5d74"
+    }
+  ],
+  "outputs": {
+    "figure2_panels_cd_shared.pdf": {
+      "bytes": 40395,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panels_cd_shared.pdf",
+      "sha256": "81c3203ee982028a127198d60c6b483760fcb8cceb5f170d290a5d160ca373c3"
+    },
+    "figure2_panels_cd_shared.png": {
+      "bytes": 296835,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panels_cd_shared.png",
+      "sha256": "6cda7a8905e31b85eb2093834a3824f5ca37f2e6157eaa226c90e85ae172d866"
+    },
+    "figure2_panels_cd_shared_checks.json": {
+      "bytes": 2396,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panels_cd_shared_checks.json",
+      "sha256": "def3a8f1b3ef8d6095a30f216745ccfb05e287813c3a4b65afe370d690f4e2c5"
+    },
+    "figure2_panels_cd_shared_note.md": {
+      "bytes": 707,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panels_cd_shared_note.md",
+      "sha256": "1f65b9e08e6c0baa2beb3b7862b3e2757b1a939b1be4c7fc6a9c6a792a177a6f"
+    }
+  },
+  "schema_version": "figure2-panels-cd-shared-manifest-v1",
+  "script_path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure2_stock_flow/figure2_panels_cd_shared.py",
+  "script_sha256": "ba623e3fb5722a3eba507f8013f9954031932ce4ec6fd4ef75ee276b79cd1db2",
+  "script_version": "0.2.0",
+  "status": "REPRODUCED"
+}

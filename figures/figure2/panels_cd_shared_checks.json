@@ -1,0 +1,90 @@
+{
+  "all_cities_row_is_last": true,
+  "analysis_scope": "native-vector shared-axis rendering of reproduced derivatives",
+  "axes_width_ratio_matches_panel_ratio": true,
+  "city_order_matches": true,
+  "city_order_sort_description": "Panel d observed new building PV area per newly observed building",
+  "city_order_sort_direction": "descending",
+  "city_order_sort_key": "pv_area_yield_new_m2_per_new_building",
+  "city_order_sorted_by_panel_d_observed_new_building_pv_area": true,
+  "generated_at_utc": "2026-09-03T20:00:56.847917+00:00",
+  "grid_width_ratios": [
+    3,
+    2
+  ],
+  "legend_anchor_axes_fraction": [
+    0.5,
+    -0.16
+  ],
+  "maximum_absolute_parity_identity_error": 7.105427357601002e-15,
+  "native_matplotlib_render": true,
+  "nominal_capacity_density_kwdc_per_m2": 0.2,
+  "panel_c_city_order": [
+    "washington_dc",
+    "los_angeles",
+    "phoenix",
+    "denver",
+    "boston",
+    "dallas",
+    "new_york_city",
+    "miami",
+    "minneapolis",
+    "atlanta",
+    "philadelphia",
+    "seattle",
+    "detroit",
+    "chicago",
+    "charlotte"
+  ],
+  "panel_c_label_left_inches_from_left": 0.65,
+  "panel_c_label_requested_left_inches": 0.65,
+  "panel_c_width_inches": 4.96,
+  "panel_c_ytick_label_right_inches_from_left": 1.1500555555555554,
+  "panel_d_axis_labels_wrapped_for_two_thirds_width": true,
+  "panel_d_city_order": [
+    "washington_dc",
+    "los_angeles",
+    "phoenix",
+    "denver",
+    "boston",
+    "dallas",
+    "new_york_city",
+    "miami",
+    "minneapolis",
+    "atlanta",
+    "philadelphia",
+    "seattle",
+    "detroit",
+    "chicago",
+    "charlotte"
+  ],
+  "panel_d_is_two_thirds_panel_c": true,
+  "panel_d_label_left_inches_from_left": 5.075733333333333,
+  "panel_d_repeated_city_labels_removed": true,
+  "panel_d_to_c_width_ratio": 0.6666666666666666,
+  "panel_d_width_inches": 3.3066666666666666,
+  "panel_d_xlabel_labelpad_points": 2.0,
+  "panel_layout": [
+    "c",
+    "d"
+  ],
+  "parity_identity_within_1e_10": true,
+  "pdf_background": "opaque white",
+  "pdf_fonttype": 42,
+  "png_background": "opaque white",
+  "schema_version": "figure2-panels-cd-shared-checks-v1",
+  "shared_canvas_inches": [
+    8.266666666666666,
+    4.35
+  ],
+  "shared_yaxis": true,
+  "shared_yaxis_owner": "panel c",
+  "status": "REPRODUCED",
+  "subplot_margins": {
+    "bottom": 0.165,
+    "left": 0.145,
+    "right": 0.985,
+    "top": 0.875,
+    "wspace": 0.14
+  }
+}

@@ -1,0 +1,46 @@
+# Shared defaults for temporal building--PV paper figures.
+figure.facecolor: white
+axes.facecolor: white
+savefig.facecolor: white
+savefig.transparent: False
+
+font.family: sans-serif
+font.sans-serif: DejaVu Sans, Arial, Liberation Sans
+font.size: 8.2
+axes.titlesize: 8.2
+axes.labelsize: 8.2
+xtick.labelsize: 7.0
+ytick.labelsize: 7.0
+legend.fontsize: 7.3
+
+text.color: 0.13
+axes.labelcolor: 0.13
+axes.edgecolor: 0.72
+xtick.color: 0.30
+ytick.color: 0.30
+
+axes.linewidth: 0.6
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: True
+axes.axisbelow: True
+grid.color: 0.85
+grid.linewidth: 0.55
+grid.linestyle: :
+grid.alpha: 1.0
+
+lines.linewidth: 1.35
+lines.markersize: 4.5
+patch.linewidth: 0.7
+hatch.linewidth: 0.75
+
+legend.frameon: False
+legend.handlelength: 1.5
+legend.borderaxespad: 0.2
+
+figure.dpi: 150
+savefig.dpi: 300
+savefig.bbox: tight
+savefig.pad_inches: 0.03
+pdf.fonttype: 42
+ps.fonttype: 42

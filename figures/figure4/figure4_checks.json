@@ -1,0 +1,275 @@
+{
+  "all_city_y_axis_labels_black": true,
+  "all_three_ratios_finite_and_positive_in_eligible_cells": true,
+  "any_three_metric_direction_disagreement_count_eligible": 23,
+  "building_area_ratio_switch_cities_eligible": [
+    "miami",
+    "philadelphia",
+    "charlotte",
+    "chicago",
+    "phoenix",
+    "new_york_city",
+    "boston"
+  ],
+  "building_area_ratio_switch_city_count_eligible": 7,
+  "building_area_vs_roof_area_direction_disagreement_count_eligible": 7,
+  "canvas_dimensions_inches": [
+    8.85,
+    6.3
+  ],
+  "canvas_scaled_to_three_quarters_of_previous_dimensions": true,
+  "city_count": 15,
+  "city_order": [
+    "detroit",
+    "denver",
+    "minneapolis",
+    "los_angeles",
+    "dallas",
+    "miami",
+    "philadelphia",
+    "atlanta",
+    "charlotte",
+    "seattle",
+    "chicago",
+    "washington_dc",
+    "phoenix",
+    "new_york_city",
+    "boston"
+  ],
+  "city_order_matches_figure3": true,
+  "count_vs_building_area_direction_disagreement_count_eligible": 19,
+  "count_vs_roof_area_direction_disagreement_count_eligible": 20,
+  "directions_computed_from_unrounded_values": true,
+  "eligible_transition_count": 55,
+  "full_aoi_transition_count": 67,
+  "generated_at_utc": "2026-09-03T19:07:19.805409+00:00",
+  "heatmap_display_limit_log2": 3.0,
+  "legend_to_panel_cd_vertical_space_increased_from_previous": true,
+  "masked_cells_hatched_not_zero": true,
+  "masked_transition_count": 12,
+  "masked_transition_keys": [
+    "detroit:1",
+    "minneapolis:1",
+    "minneapolis:2",
+    "dallas:3",
+    "philadelphia:2",
+    "philadelphia:3",
+    "philadelphia:4",
+    "atlanta:1",
+    "atlanta:2",
+    "atlanta:3",
+    "washington_dc:1",
+    "boston:3"
+  ],
+  "minimum_strict_first_event_hosts_per_route": 10,
+  "native_cohort_order_matches_roof_manifest": true,
+  "no_inferential_intervals_displayed": true,
+  "outer_grid_height_space": 0.28,
+  "outer_grid_height_space_reduced_from": 0.7,
+  "outer_grid_width_space": 0.08,
+  "outer_grid_width_space_reduced_from": 0.22,
+  "panel_a_b_axes_bbox_aligned": true,
+  "panel_a_b_share_y_axis": true,
+  "panel_a_b_y_limits_equal": true,
+  "panel_a_colorbar_font_sizes_points": {
+    "label": 6.2,
+    "ticks": 5.4
+  },
+  "panel_a_colorbar_gap_above_axis_figure_fraction": 0.018,
+  "panel_a_colorbar_height_fraction_of_previous": 0.499999999999997,
+  "panel_a_colorbar_height_inches": 0.05781417373284307,
+  "panel_a_colorbar_width_fraction_of_panel_a": 0.6666666666666666,
+  "panel_a_horizontal_colorbar_above": true,
+  "panel_a_visible_left_figure_fraction": 0.022482736974262396,
+  "panel_c_d_visible_axes_black_solid": true,
+  "panel_c_left_shift_figure_fraction": -0.03610664945268361,
+  "panel_c_selected_cities": [
+    {
+      "city_id": "miami",
+      "role": "frequency-variation exemplar"
+    },
+    {
+      "city_id": "boston",
+      "role": "system-size-variation exemplar"
+    },
+    {
+      "city_id": "new_york_city",
+      "role": "denominator-sensitivity exemplar"
+    }
+  ],
+  "panel_c_selection_rule_frozen_before_render": true,
+  "panel_c_uses_aligned_tracks_not_dual_axis": true,
+  "panel_c_visible_left_aligned_with_panel_a": true,
+  "panel_c_visible_left_figure_fraction": 0.02248273697426239,
+  "panel_d_atlanta_marker_inside_xlim": true,
+  "panel_d_building_area_switch_is_comparator": true,
+  "panel_d_city_labels_inside_left_axis": false,
+  "panel_d_city_labels_restored_outside_axis": true,
+  "panel_d_left_subplot_ticks_visible": true,
+  "panel_d_roof_switch_is_primary": true,
+  "panel_label_positions_figure_fraction": {
+    "a": [
+      0.009999999999999995,
+      0.957
+    ],
+    "b": [
+      0.5408708272859216,
+      0.957
+    ],
+    "c": [
+      0.009999999999999995,
+      0.46684210526315795
+    ],
+    "d": [
+      0.5408708272859216,
+      0.46684210526315795
+    ]
+  },
+  "panel_labels_aligned_to_four_grid_corners": true,
+  "panel_primary_keys": {
+    "a": [
+      "city_id",
+      "transition_index"
+    ],
+    "b": [
+      "city_id",
+      "transition_index",
+      "metric"
+    ],
+    "c": [
+      "city_id",
+      "transition_index",
+      "route"
+    ],
+    "d": [
+      "city_id"
+    ]
+  },
+  "panel_primary_keys_unique": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": true
+  },
+  "panel_row_counts": {
+    "a": 67,
+    "b": 201,
+    "c": 28,
+    "d": 15
+  },
+  "panel_rows_equal_overall_height": true,
+  "roof_area_ratio_switch_cities_eligible": [
+    "miami",
+    "charlotte",
+    "new_york_city",
+    "boston"
+  ],
+  "roof_area_ratio_switch_city_count_eligible": 4,
+  "schema_version": "figure4-transition-dynamics-checks-v1",
+  "scope": "full_aoi",
+  "shared_legend_down_shift_figure_fraction": 0.006,
+  "shared_legend_location": "single row shifted downward within the narrowed inter-row whitespace",
+  "single_shared_legend": true,
+  "source_manifests_reproduced": true,
+  "source_qa_hashes_match_manifests": true,
+  "source_table_hashes_match_manifests": true,
+  "status": "REPRODUCED",
+  "status_is_descriptive_not_inferential": true,
+  "structurally_absent_cells_blank": true,
+  "transition_area_reconciliation": {
+    "atlanta": {
+      "city_existing_m2": 76728.19585001256,
+      "city_new_m2": 9178.848881304799,
+      "transition_existing_m2": 76728.19585001258,
+      "transition_new_m2": 9178.848881304799
+    },
+    "boston": {
+      "city_existing_m2": 985932.1848928229,
+      "city_new_m2": 37259.05358075169,
+      "transition_existing_m2": 985932.1848928228,
+      "transition_new_m2": 37259.053580751686
+    },
+    "charlotte": {
+      "city_existing_m2": 23014.671609752182,
+      "city_new_m2": 1785.8675428143792,
+      "transition_existing_m2": 23014.67160975218,
+      "transition_new_m2": 1785.8675428143788
+    },
+    "chicago": {
+      "city_existing_m2": 1413101.545413359,
+      "city_new_m2": 32001.179398641005,
+      "transition_existing_m2": 1413101.545413359,
+      "transition_new_m2": 32001.179398641012
+    },
+    "dallas": {
+      "city_existing_m2": 417770.7136708932,
+      "city_new_m2": 64324.57040809022,
+      "transition_existing_m2": 417770.71367089316,
+      "transition_new_m2": 64324.57040809022
+    },
+    "denver": {
+      "city_existing_m2": 845778.6974290668,
+      "city_new_m2": 71810.45354618273,
+      "transition_existing_m2": 845778.6974290665,
+      "transition_new_m2": 71810.45354618272
+    },
+    "detroit": {
+      "city_existing_m2": 80344.65333717657,
+      "city_new_m2": 12100.985250938968,
+      "transition_existing_m2": 80344.65333717658,
+      "transition_new_m2": 12100.985250938968
+    },
+    "los_angeles": {
+      "city_existing_m2": 5557762.163105888,
+      "city_new_m2": 555978.5006731955,
+      "transition_existing_m2": 5557762.163105888,
+      "transition_new_m2": 555978.5006731955
+    },
+    "miami": {
+      "city_existing_m2": 1900538.9117161972,
+      "city_new_m2": 58424.67594303988,
+      "transition_existing_m2": 1900538.9117161972,
+      "transition_new_m2": 58424.67594303988
+    },
+    "minneapolis": {
+      "city_existing_m2": 312193.5724570395,
+      "city_new_m2": 18812.915708030272,
+      "transition_existing_m2": 312193.5724570395,
+      "transition_new_m2": 18812.915708030276
+    },
+    "new_york_city": {
+      "city_existing_m2": 1890001.0341110518,
+      "city_new_m2": 37391.38277175184,
+      "transition_existing_m2": 1890001.0341110514,
+      "transition_new_m2": 37391.38277175185
+    },
+    "philadelphia": {
+      "city_existing_m2": 171072.981235858,
+      "city_new_m2": 4530.888521017363,
+      "transition_existing_m2": 171072.98123585802,
+      "transition_new_m2": 4530.888521017363
+    },
+    "phoenix": {
+      "city_existing_m2": 4315591.8946112795,
+      "city_new_m2": 290933.9002551414,
+      "transition_existing_m2": 4315591.894611279,
+      "transition_new_m2": 290933.9002551414
+    },
+    "seattle": {
+      "city_existing_m2": 209215.38140051076,
+      "city_new_m2": 19076.5804409115,
+      "transition_existing_m2": 209215.38140051079,
+      "transition_new_m2": 19076.5804409115
+    },
+    "washington_dc": {
+      "city_existing_m2": 894757.5729094788,
+      "city_new_m2": 40376.01115249365,
+      "transition_existing_m2": 894757.5729094787,
+      "transition_new_m2": 40376.01115249365
+    }
+  },
+  "transition_area_reconciliation_max_relative_residual": 2.752855378855135e-16,
+  "transition_area_sums_reconcile_to_city_totals": true,
+  "transition_information_gate_frozen_before_render": true,
+  "transition_information_gate_sha256": "d0c58c902bc2096c11cc34a7cea678f166f65542a6dd9129b3dfa4c278516ec9"
+}

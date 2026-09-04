@@ -1,0 +1,73 @@
+{
+  "asset": "../figures/v1/fig_5.pdf",
+  "documented_utc": "2026-09-04T00:46:20Z",
+  "bytes": 2880366,
+  "sha256": "9e9346954eb23629e6a58b4be194b7c385b467b01e8202baccc097ee260fa72b",
+  "pdf": {
+    "pages": 1,
+    "media_box_points": [0.0, 0.0, 512.442, 257.991],
+    "width_inches": 7.11725,
+    "height_inches": 3.5832083333,
+    "creator": "Adobe Illustrator 30.8 (Windows)",
+    "producer": "Adobe PDF library 17.00",
+    "title": "Untitled-1",
+    "creation_date": "2026-08-27T16:27:37-04:00",
+    "modification_date": "2026-09-03T20:06:23-04:00"
+  },
+  "panel_inventory": [
+    {
+      "panel": "a",
+      "heading": "Study Area",
+      "content": "Selection from the top 21 U.S. MSAs by population to 15 study cities, with primary-city area and GHSL urban-center intersection."
+    },
+    {
+      "panel": "b",
+      "heading": "Input and Model Adaptation",
+      "content": "Imagery cohorts, Building footprints, PV pseudo-labels, SAM3 prompting and SegFormer adaptation."
+    },
+    {
+      "panel": "c",
+      "heading": "Temporal State Inference",
+      "content": "Anchor PV and Building inventories, candidate scope, frozen PV-Building linkage, historical inference and A/P/U state sequences."
+    },
+    {
+      "panel": "d",
+      "heading": "Onset and Output",
+      "content": "Sequence reduction, censored PV and Building onset, frozen anchor linkage and Building-onset, PV-onset and paired outputs."
+    }
+  ],
+  "manuscript_routing": "Methods, opening workflow subsection",
+  "evidence_status": "PRELIMINARY",
+  "provenance_status": "incomplete",
+  "known_limitations": [
+    "No editable source artwork was found in paper/figures/v1.",
+    "No canonical source-data table, check file or freeze manifest was found for this asset.",
+    "The asset describes workflow and must not be used as numerical evidence for a Results claim."
+  ],
+  "artwork_text_qa": {
+    "status": "PASS",
+    "checked_utc": "2026-09-04T00:46:20Z",
+    "previously_flagged_strings_absent": [
+      "intersate",
+      "foorprints",
+      "latseset",
+      "builiding",
+      "Consored"
+    ],
+    "corrected_strings_present": [
+      "interstate",
+      "Footprints",
+      "latest cohort",
+      "building",
+      "Censored onset"
+    ],
+    "note": "The user-supplied corrected PDF was checked by text extraction and raster inspection."
+  },
+  "inspection": {
+    "tool": "pypdf",
+    "tool_version": "5.9.0",
+    "text_extraction_completed": true,
+    "raster_inspection_completed": true,
+    "rasterizer": "Ghostscript"
+  }
+}

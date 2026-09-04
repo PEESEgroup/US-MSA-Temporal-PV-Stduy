@@ -1,0 +1,57 @@
+{
+  "all_city_roof_area_ratios_above_one": true,
+  "building_area_to_roof_crossing_cities": [
+    "charlotte",
+    "chicago"
+  ],
+  "building_area_to_roof_crossing_city_count": 2,
+  "canvas_dimensions_inches": [
+    5.625,
+    5.1
+  ],
+  "canvas_width_and_height_are_75pct_of_v2_initial_draft": true,
+  "city_order": [
+    "detroit",
+    "denver",
+    "minneapolis",
+    "los_angeles",
+    "dallas",
+    "miami",
+    "philadelphia",
+    "atlanta",
+    "charlotte",
+    "seattle",
+    "chicago",
+    "washington_dc",
+    "phoenix",
+    "new_york_city",
+    "boston"
+  ],
+  "city_order_rule": "descending full-AOI PV first-appearance ratio; pooled row last",
+  "count_to_roof_crossing_cities": [
+    "philadelphia",
+    "atlanta",
+    "charlotte",
+    "seattle",
+    "chicago",
+    "washington_dc",
+    "phoenix",
+    "new_york_city",
+    "boston"
+  ],
+  "count_to_roof_crossing_city_count": 9,
+  "first_appearance_definition": "first accepted adjacent absent-to-present PV transition on a unique linked host",
+  "full_aoi_city_count": 15,
+  "generated_at_utc": "2026-09-03T14:28:30.061080+00:00",
+  "lines_connect_metrics_within_city_not_time": true,
+  "only_roof_area_values_receive_numeric_labels": true,
+  "plain_language_labels_verified": true,
+  "pv_first_appearance_circles_drawn_above_other_markers": true,
+  "pv_first_appearance_ratios_descending": true,
+  "roof_area_ratios_recomputed_exactly": true,
+  "schema_version": "figure3-panel-a-appearance-sorted-checks-v2",
+  "source_hashes_verified": true,
+  "status": "REPRODUCED",
+  "three_metrics_per_displayed_row": true,
+  "visible_term_for_count_metric": "PV first appearances / building"
+}

@@ -1,0 +1,147 @@
+{
+  "font": {
+    "family": "Arial",
+    "path": "/home/ec2-user/rpv-work/analytics/arial.ttf",
+    "sha256": "413c78f91bd39e134f3c0bb204b1d5a90f29df9efddc8fd26950a178058d5d74"
+  },
+  "generated_at_utc": "2026-09-03T20:02:18.717854+00:00",
+  "inputs": {
+    "cohort_ranges": {
+      "path": "/home/ec2-user/rpv-work/analytics/config/city_cohort_ranges.csv",
+      "sha256": "32e89fa0ce96bfec31c23f8850aa8813efc6c64baf6e3711f42597027f7e8dd4"
+    },
+    "frozen_panel_a_order": {
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/output/figure1_panel_a_3x5_data.csv",
+      "sha256": "bab42ae2b5e044dc406d1646cbbb9f3fcb586ab5293d0b765ade7ab8e9cd9ca9"
+    },
+    "major_results_index": {
+      "path": "/home/ec2-user/rpv-work/analytics/results/major_results_index.json",
+      "sha256": "933ac8d86f1bb321a520754957c7ebe44933aefcb79795b9c4469edb9ae37dec"
+    },
+    "pv_building_relationships": {
+      "atlanta": {
+        "path": "/home/ec2-user/rpv-work/runs/atlanta-vintage-inventory-city-general-production-20260829/final_pairing/earliest_onset_v2/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 1319,
+        "sha256": "b7e2bddf4eada84d7178c706e434013fe24f43b448738004d8aec98f952632da"
+      },
+      "boston": {
+        "path": "/home/ec2-user/rpv-work/runs/boston-pv-building-first-appearance-pairs-earliest-onset-pau-v3-20260825/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 19180,
+        "sha256": "b8c492cd8c7b98d14e71bee5cfb055360c2d0a16bd2b07dda22840ddb0a175eb"
+      },
+      "charlotte": {
+        "path": "/home/ec2-user/rpv-work/runs/charlotte-vintage-inventory-anchor-pv-scoped-20260826-r2/linking/pv_building_earliest_onset_v2-r2/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 796,
+        "sha256": "4d6e62aa567e90f5c4e461010c6539093283a6775f973a13a6e53afc17848193"
+      },
+      "chicago": {
+        "path": "/home/ec2-user/rpv-work/runs/chicago-vintage-inventory-city-general-production-20260828/final_pairing/earliest_onset_v2/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 34182,
+        "sha256": "f70d87a959abb27f9987c18d28177c87111d772609f13f25835dad5abff6d46e"
+      },
+      "dallas": {
+        "path": "/home/ec2-user/rpv-work/runs/dallas-vintage-inventory-city-general-production-20260829/final_pairing/earliest_onset_v2/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 11885,
+        "sha256": "ef128079af13fcdb509ecc09f4894a655ac29d897e9764884b5e56ae630ac43e"
+      },
+      "denver": {
+        "path": "/home/ec2-user/rpv-work/runs/denver-vintage-inventory-city-general-production-20260830/final_pairing/earliest_onset_v2/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 28194,
+        "sha256": "ad5097caea052d7908e1687d5f0a4ece5fbfefaa24d98e60b421b56d121d0b5b"
+      },
+      "detroit": {
+        "path": "/home/ec2-user/rpv-work/runs/detroit-vintage-inventory-city-general-production-20260830/linking_retry1/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 2772,
+        "sha256": "93b1a5824bfac0383a3b4298f65cc09fc91abfeeb9a7ca857fd6ef0328ba5cb1"
+      },
+      "los_angeles": {
+        "path": "/home/ec2-user/rpv-work/runs/los_angeles-vintage-inventory-city-general-production-20260827-r7/final_pairing/earliest_onset_v2/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 117794,
+        "sha256": "8dbe5e3d0fd231c4f19628b52f6f47f680ad042a1dd615beb683dc236339640a"
+      },
+      "miami": {
+        "path": "/home/ec2-user/rpv-work/runs/miami-building-context-repair-complete-2x2-v1-20260831/linking/stage9_earliest_onset_v2_complete_context/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 57870,
+        "sha256": "de7038682b98ffd60b960899151da8acbd1ce323b5e1e289f38556c62d50edeb"
+      },
+      "minneapolis": {
+        "path": "/home/ec2-user/rpv-work/runs/minneapolis-building-context-repair-complete-2x2-v1-20260831/final/pair_v2_complete_context/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 4510,
+        "sha256": "5dd995cadf62f60bd2ce5514c53910dcbf93d2e153eed104fe972e019f840d72"
+      },
+      "new_york_city": {
+        "path": "/home/ec2-user/rpv-work/runs/new_york_city-vintage-inventory-city-general-production-20260827-r7/linking/pv_building_earliest_onset_v2/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 47582,
+        "sha256": "657cf98022af7df3252db009034421656d91eb5ef665f952553180eed40539a4"
+      },
+      "philadelphia": {
+        "path": "/home/ec2-user/rpv-work/runs/philadelphia-vintage-inventory-city-general-production-20260829/final_pairing/earliest_onset_v2_retry1/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 8307,
+        "sha256": "ee983723d24d61b19944726103bfe0a926706be7855911b909469d0d3b8b933a"
+      },
+      "phoenix": {
+        "path": "/home/ec2-user/rpv-work/runs/phoenix-vintage-inventory-city-general-production-20260830/final_pairing/earliest_onset_v2/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 82829,
+        "sha256": "fe35d16a88911b22b483e1ba6c940b80b62386b7ab8c595ce37f0262d25922cd"
+      },
+      "seattle": {
+        "path": "/home/ec2-user/rpv-work/runs/seattle-vintage-inventory-city-general-production-20260830/final_pairing/earliest_onset_v2/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 6586,
+        "sha256": "00662b100ace648f54ddd954c4d473f0b355b23b30b5b2083d0bbd69f89c911f"
+      },
+      "washington_dc": {
+        "path": "/home/ec2-user/rpv-work/runs/washington_dc-vintage-inventory-city-general-production-20260829/final_pairing/earliest_onset_v2/pv_target_building_first_appearance_relationship.csv",
+        "primary_key": "temporal_pv_target_id",
+        "row_count": 16322,
+        "sha256": "c57c2e1d1a86d6a55fd2cf5e29eeb3ca13765b89dbf346493a63dd54e57dfca7"
+      }
+    }
+  },
+  "outputs": {
+    "figure1_panel_c_lag.pdf": {
+      "bytes": 37196,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/output/figure1_panel_c_lag.pdf",
+      "sha256": "627abcb3af34749cccbd01803547d29bb2f5d5c991026c22bb0630d3dfd498c6"
+    },
+    "figure1_panel_c_lag.png": {
+      "bytes": 138243,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/output/figure1_panel_c_lag.png",
+      "sha256": "da7e7c0922747182107c501702865278b03fb767331cc875e893c554aaf94775"
+    },
+    "figure1_panel_c_lag_checks.json": {
+      "bytes": 1057,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/output/figure1_panel_c_lag_checks.json",
+      "sha256": "7386c59ce4590cb0dc7d7dfd3728753d693dedeead28f70911b81742d29e46cc"
+    },
+    "figure1_panel_c_lag_data.csv": {
+      "bytes": 43448,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/output/figure1_panel_c_lag_data.csv",
+      "sha256": "559a4c77c3d42f06379e1f26a91e206a9bf4403f8fd4535da6e9c20f9fb69e2a"
+    },
+    "figure1_panel_c_lag_note.md": {
+      "bytes": 1120,
+      "path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/output/figure1_panel_c_lag_note.md",
+      "sha256": "91dd8cd7b80c6fb45d077be2997d3f5e5f45b0371189889c5eec3b49a0a062dc"
+    }
+  },
+  "panel": "Figure 1c interval-imputed lag",
+  "schema_version": "figure-panel-manifest-v1",
+  "script_path": "/home/ec2-user/rpv-work/analytics/paper/figures/figure1_city_trajectories/panel_c_lag.py",
+  "script_sha256": "5c34fea1ff7c48417e1c3abe2c7b3a0b887d903b1b80a35cf61409b975d3b6d9",
+  "script_version": "0.8.0",
+  "status": "REPRODUCED"
+}

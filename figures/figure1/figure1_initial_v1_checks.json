@@ -1,0 +1,12 @@
+{
+  "b_c_d_axes_use_equal_grid_width_ratios": true,
+  "combined_height_inches": 7.550000000000001,
+  "combined_width_inches": 9.100000000000001,
+  "cropped_bottom_whitespace_inches": 0.44999999999999996,
+  "layout": "a above b-c-d",
+  "native_vector_pdf": true,
+  "panel_a_and_bcd_widths_equal": true,
+  "panel_a_width_inches": 9.100000000000001,
+  "panels_bcd_width_inches": 9.100000000000001,
+  "status": "REPRODUCED"
+}
