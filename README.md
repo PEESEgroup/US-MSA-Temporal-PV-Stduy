@@ -27,6 +27,42 @@ Figures 1--4 are `REPRODUCED` or `REPRODUCED (descriptive)`. Figure 5 is a
 workflow illustration with `PRELIMINARY` source provenance and is not numerical
 evidence.
 
+## PV-segmentation checkpoints
+
+The deployed city-adapted **SegFormer-B5 checkpoints for all 15 study cities**
+are available in the [city PV checkpoint release](https://github.com/PEESEgroup/US-MSA-Temporal-PV-Stduy/releases/tag/city-pv-checkpoints-v1).
+The weights use a uniform city-based layout and the shared model-adaptation
+and PV-segmentation workflow described in Methods and Supplementary Table S13.
+
+| Archive | Cities |
+|---|---|
+| [Part 1](https://github.com/PEESEgroup/US-MSA-Temporal-PV-Stduy/releases/download/city-pv-checkpoints-v1/city-pv-checkpoints-v1-part-01.zip) | Atlanta, Boston, Charlotte, Chicago, Dallas |
+| [Part 2](https://github.com/PEESEgroup/US-MSA-Temporal-PV-Stduy/releases/download/city-pv-checkpoints-v1/city-pv-checkpoints-v1-part-02.zip) | Denver, Detroit, Los Angeles, Miami, Minneapolis |
+| [Part 3](https://github.com/PEESEgroup/US-MSA-Temporal-PV-Stduy/releases/download/city-pv-checkpoints-v1/city-pv-checkpoints-v1-part-03.zip) | New York City, Philadelphia, Phoenix, Seattle, Washington DC |
+
+Each ZIP is approximately 1.69 GB; all three total approximately 5.08 GB.
+The ZIPs are independently extractable, not split volumes. Download all three
+for the complete collection, or select the archive containing the desired city.
+Extract into the same directory to obtain
+`checkpoints/<city_id>/segformer_b5.pth`.
+
+The release also provides:
+
+- [checkpoint_inventory.csv](https://github.com/PEESEgroup/US-MSA-Temporal-PV-Stduy/releases/download/city-pv-checkpoints-v1/checkpoint_inventory.csv): city-to-file mapping, byte sizes and per-checkpoint SHA-256 values.
+- [SHA256SUMS.txt](https://github.com/PEESEgroup/US-MSA-Temporal-PV-Stduy/releases/download/city-pv-checkpoints-v1/SHA256SUMS.txt): checksums for the downloaded release assets.
+- [Model README](https://github.com/PEESEgroup/US-MSA-Temporal-PV-Stduy/releases/download/city-pv-checkpoints-v1/README.md): package scope and use guidance.
+
+After downloading all assets into one directory, verify them with
+`sha256sum -c SHA256SUMS.txt`. The repository's `verify_release.py` checks the
+code-and-figure files; the checkpoint assets have their own checksum inventory.
+
+These files are the deployed PV-segmentation weights, not SAM 3 foundation
+weights or a full training-resumption environment. Use a compatible
+SegFormer-B5 implementation and the study's preprocessing. Source imagery,
+training labels and the end-to-end inference environment are not included in
+the model release. Weight availability does not extend the manuscript's
+reported evaluation scope.
+
 ## Scientific scope
 
 The analysis concerns in-scope, anchor-surviving PV and Buildings in the

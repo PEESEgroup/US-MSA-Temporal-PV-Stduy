@@ -21,8 +21,8 @@
       "sha256": "913e6efc79a12f018cc0eeb289da4ad7338350fffe9f044396343a88d94826bd"
     },
     "README.md": {
-      "bytes": 3872,
-      "sha256": "4d08840ca57c5c23884e1bd2472a6228a161829663f130f561919b13822dfc0f"
+      "bytes": 6430,
+      "sha256": "5e699307953c0af49622c7825308377d5f39758ca245d684fdc4d57e8b2c0e5b"
     },
     "agent/CLAIMS_EVIDENCE_MATRIX.md": {
       "bytes": 12340,
@@ -617,7 +617,7 @@
       "sha256": "73ced0ca5d50f90401329656245f73e8bc79bf52a65078188597c89368271e06"
     }
   },
-  "generated_utc": "2026-09-04T12:17:06Z",
+  "generated_utc": "2026-09-17T15:28:25.438263+00:00",
   "schema_version": "temporal-pv-github-release/v1",
   "scope": "main figures, plotted data, checks, manifests, plotting code, paper-analysis code and agent workflow records"
 }
