@@ -6,7 +6,7 @@
     "Arial font file pending redistribution permission",
     "credentials and chat transcripts"
   ],
-  "file_count": 152,
+  "file_count": 154,
   "files": {
     ".gitattributes": {
       "bytes": 51,
@@ -21,8 +21,8 @@
       "sha256": "913e6efc79a12f018cc0eeb289da4ad7338350fffe9f044396343a88d94826bd"
     },
     "README.md": {
-      "bytes": 6430,
-      "sha256": "5e699307953c0af49622c7825308377d5f39758ca245d684fdc4d57e8b2c0e5b"
+      "bytes": 6671,
+      "sha256": "4543f39a2d0b72a7605fa1bdb94a08d9c79a8bf7c895075544d5cf78b733dd6f"
     },
     "agent/CLAIMS_EVIDENCE_MATRIX.md": {
       "bytes": 12340,
@@ -123,6 +123,14 @@
     "analysis/compare_city_building_stock_estimators.py": {
       "bytes": 11335,
       "sha256": "c16ba57abf0fae760b5ff650f2d8688506e49f32e89c4bb8548f212b8c9a057a"
+    },
+    "data/README.md": {
+      "bytes": 2652,
+      "sha256": "71292c94a8cf01f0c8339e6f12e9c9122e7be6d63d0550f314c94222577aa5ac"
+    },
+    "data/imagery_source_versions.csv": {
+      "bytes": 40716,
+      "sha256": "c1bad0375b75ae9aa1d88bcbd16afe758ea01ff969a4ce3ca62c3e9118af4782"
     },
     "figures/README.md": {
       "bytes": 1361,
@@ -617,7 +625,7 @@
       "sha256": "73ced0ca5d50f90401329656245f73e8bc79bf52a65078188597c89368271e06"
     }
   },
-  "generated_utc": "2026-09-17T15:28:25.438263+00:00",
+  "generated_utc": "2026-09-25T21:32:00Z",
   "schema_version": "temporal-pv-github-release/v1",
   "scope": "main figures, plotted data, checks, manifests, plotting code, paper-analysis code and agent workflow records"
 }

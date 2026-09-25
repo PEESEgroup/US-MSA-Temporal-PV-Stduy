@@ -14,6 +14,9 @@ Repository: <https://github.com/PEESEgroup/US-MSA-Temporal-PV-Stduy>
   plotted CSV files, checks, manifests, figure notes, and exact plotting-code
   snapshots.
 - `figures/figure5`: the workflow artwork and its provenance/inspection record.
+- [`data/imagery_source_versions.csv`](data/imagery_source_versions.csv): imagery
+  sources for all 82 city–cohorts, including the selected Wayback releases.
+  See the [field descriptions](data/README.md) for date and version definitions.
 - `analysis`: the agent-authored analysis, uncertainty, sensitivity, macro, and
   static-manuscript-check scripts.
 - `agent`: the scientific boundaries, claims ledger, figure plan, writing-agent
